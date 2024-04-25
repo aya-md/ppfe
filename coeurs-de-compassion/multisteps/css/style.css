@@ -587,7 +587,7 @@ select.form-control option[value=""][disabled] {
 
 .multisteps-form__form {
   position: relative;
-  width: 70%;
+  width: 100%;
   float: left;
 }
 
