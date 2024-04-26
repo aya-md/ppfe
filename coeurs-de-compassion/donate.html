@@ -53,6 +53,7 @@
 </head>
 
 <body>
+
     <!-- start page-wrapper -->
     <div class="page-wrapper">
   
@@ -86,10 +87,10 @@
                             <h2>Make a Donation</h2>
                         </div>
                         <div id="Donations" class="tab-pane">
-                            <form action="#">
+                            <form action="POST">
                                 <div class="tp-donations-amount">
                                     <h2>Your Donation</h2>
-                                    <input type="text" class="form-control" name="text" id="text" placeholder="Enter Donation Amount">
+                                    <input type="text" class="form-control" name="don" id="don" placeholder="Enter Donation Amount">
                                 </div>
                                 <div class="tp-donations-details">
                                     <h2>Details</h2>
@@ -130,55 +131,26 @@
                                                         </ul>
                                                     </div>
                                                     <div id="open6" class="payment-info">
-                                                        <p>Nom du compte :########## </p>
-                                                        <p>RIB :########## </p>
-                                                        <p>IBAN ::########## </p>
-                                                        <p>Code SWIFT ::########## </p>
+                                                        <p>Nom du compte :**************** </p>
+                                                        <p>RIB :**************** </p>
+                                                        <p>IBAN :**************** </p>
+                                                        <p>Code SWIFT :**************** </p>
                                                     </div>
                                                     <div id="open5" class="payment-name">
-                                                        <ul>
-                                                            <li class="visa"><input id="1" type="radio" name="size" value="30">
-                                                                <label for="1"><img src="assets/images/checkout/img-1.png" alt=""></label>
-                                                            </li>
-                                                            <li class="mas"><input id="2" type="radio" name="size" value="30">
-                                                                <label for="2"><img src="assets/images/checkout/img-2.png" alt=""></label>
-                                                            </li>
-                                                            <li class="ski"><input id="3" type="radio" name="size" value="30">
-                                                                <label for="3"><img src="assets/images/checkout/img-3.png" alt=""></label>
-                                                            </li>
-                                                            <li class="pay"><input id="4" type="radio" name="size" value="30">
-                                                                <label for="4"><a href="https://www.paypal.com/fr/home" target="_blank"><img src="assets/images/checkout/img-4.png" alt=""></a></label>
-                                                            </li>
-                                                        </ul>
-                                                        <div class="contact-form form-style">
-                                                            <div class="row">
-                                                                <div class="col-lg-6 col-md-12 col-12">
-                                                                    <label>Card holder Name</label>
-                                                                    <input type="text" placeholder="" name="name">
-                                                                </div>
-                                                                <div class="col-lg-6 col-md-12 col-12">
-                                                                    <label>Card Number</label>
-                                                                    <input type="text" placeholder="" name="card">
-                                                                </div>
-                                                                <div class="col-lg-6 col-md-12 col-12">
-                                                                    <label>CVV</label>
-                                                                    <input type="text" placeholder="" name="CVV">
-                                                                </div>
-                                                                <div class="col-lg-6 col-md-12 col-12">
-                                                                    <label>Expire Date</label>
-                                                                    <input type="text" placeholder="" name="date">
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                        
+                                                          
+                                                            <div id="paypal-button-container"</div>
+                                                            <p id="result-message"></p>
+                                                           
+
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="submit-area">
-                                    <button type="submit" class="theme-btn submit-btn">Donate Now</button>
-                                </div>
+                                
                             </form>
                         </div>
                     </div>
@@ -194,6 +166,46 @@
     <script src="assets2/js/gsap.min.js"></script>
     <!-- Custom script for this template -->
     <script src="assets2/js/script.js"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=ARAleSVaxe-Dvj1bvpfGCmNoMZYGFTsltG9rk5idisAFmFZySmu5mpnk5gjVeHZ0Mo1giwSN0b3FMrJ1&currency=USD"></script>
+  
+    <script>
+          function getDonValue() {
+            return document.getElementById("don").value;
+        }
+paypal.Buttons({
+   createOrder : function(data,actions){
+    return actions.order.create({
+        purchase_units:[{
+            amount : {
+                value : getDonValue()
+            }
+        }]
+
+    });
+ },
+   onApprove: function(data,actions){
+    return actions.order.capture().then(function(details){
+        alert("transaction validé");
+    })
+
+   },
+   onError: function(data,actions){
+
+
+},
+
+
+
+}).render("#paypal-button-container");
+  
+// Example function to show a result to the user. Your site's UI library can be used instead.
+function resultMessage(message) {
+  const container = document.querySelector("#result-message");
+  container.innerHTML = message;
+}
+    </script>
+
+    
     </body>
     </html>
     
