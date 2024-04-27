@@ -35,7 +35,7 @@ CSS TABLE OF CONTENTS
 	// Preloader area start here ***
 	var windowOn = $(window);
 	windowOn.on("load", function () {
-		$("#loading").fadeOut(2000);
+		$("#loading").fadeOut(1500);
 	});
 	// Preloader area end here ***
 

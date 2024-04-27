@@ -4062,5 +4062,27 @@ input {
   height: 12.5rem;
   width: 12.5rem;
 }
+.cont1{
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
+.cont2{
+  height: 16.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cont3{
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container11{
+  margin-top: -4.375rem;
+}
 

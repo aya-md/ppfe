@@ -7588,7 +7588,7 @@ breadcumb-style
 .auparagraph{
     
     width: 50vw;
-    margin-left: 40px;
+    margin-left: 1rem;
     font-weight: 500;
     margin-bottom: 60px;
 }
@@ -7610,7 +7610,6 @@ breadcumb-style
     
 }
 .container1{
- 
     margin-left: 0px;
     background: rgb(255,216,159);
 background: linear-gradient(0deg, rgba(255,216,159,1) 4%, rgba(255,255,255,1) 77%);

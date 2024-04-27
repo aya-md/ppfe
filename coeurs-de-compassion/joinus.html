@@ -60,22 +60,22 @@
     
 
     <!-- Preloader area start -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
+                    <img class="loading-logo" src="assets/images/logo/enlogo.png" alt="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader area end -->
 
 
 <body class="bd">
     <!-- start page-wrapper -->
     <div class="page-wrapper">
-        <!-- Preloader area start -->
-        <div id="loading">
-            <div id="loading-center">
-                <div id="loading-center-absolute">
-                    <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
-                        <img class="loading-logo" src="assets/images/logo.jpeg" alt="icon">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Preloader area end -->
+    
 
 
 
@@ -381,6 +381,7 @@
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
         </svg>
     </div>
+    
     <!-- All JavaScript files
     ================================================== -->
     <script src="assets2/js/jquery.min.js"></script>
@@ -423,6 +424,7 @@
     <script src="multisteps/js/main.js"></script>
     <script src="multisteps/js/switch.js"></script>
     <script>
+        
         $("#files").change(function () {
             filename = this.files[0].name
             // console.log(filename);
