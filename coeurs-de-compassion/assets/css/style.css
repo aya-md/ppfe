@@ -1832,7 +1832,7 @@ input {
   flex-wrap: wrap;
   gap: 10px;
 }
-.pegi a {
+.pegi li {
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -1844,14 +1844,14 @@ input {
   font-weight: 700;
   border-radius: 0;
 }
-.pegi a:hover {
+.pegi li:hover {
   background-color: var(--primary-color);
   color: var(--white);
 }
-.pegi a:hover i {
+.pegi li:hover i {
   color: var(--white) !important;
 }
-.pegi a.active {
+.pegi li.active {
   background-color: var(--primary-color);
   color: var(--white);
 }
