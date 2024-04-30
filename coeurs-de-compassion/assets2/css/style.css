@@ -2650,7 +2650,7 @@ img {
     color: #666;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
 
     .tp-header-style-2 .cart-search-contact .mini-cart-content,
     .tp-header-style-3 .cart-search-contact .mini-cart-content,
@@ -2691,17 +2691,7 @@ img {
     }
 }
 
-#magic-cursor {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 30px;
-    height: 30px;
-    pointer-events: none;
-    z-index: 10000;
-    -webkit-transition: opacity 0.2s ease-in-out 0.5s;
-    transition: opacity 0.2s ease-in-out 0.5s;
-}
+
 
 #ball {
     position: fixed;

@@ -1644,7 +1644,7 @@ input {
 }
 
 .bor-bottom {
-  border-bottom: 1px solid var(--border);
+
 }
 
 .bor-right {
@@ -2648,6 +2648,7 @@ input {
 @media (max-width: 991px) {
   .header__main {
     padding: 15px 0;
+    
   }
 }
 .header__main .bars i {
