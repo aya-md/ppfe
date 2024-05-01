@@ -1,0 +1,12 @@
+.bx{
+    font-size: 32px;
+}
+body{
+    background-color: #f67d4a;
+}
+
+.inputactivite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
