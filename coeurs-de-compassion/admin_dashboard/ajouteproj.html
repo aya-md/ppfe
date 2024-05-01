@@ -37,8 +37,13 @@ License: You must have a valid license purchased only from themeforest(the above
  <!-- BEGIN: Post Content -->
                     <div class="intro-y col-span-7 lg:col-span-6">
                         <input type="text" class="intro-y input input--lg w-35 box pr-10 placeholder-theme-13" placeholder="Title" >
-                        
-                        <input type="text" class="intro-y input input--lg w-35 mr-15 box pr-10 placeholder-theme-13" placeholder="Date" style="margin-left:15rem;">
+                        <div class="relative w-56 h-11" style="margin-left:28%;margin-top:-2.5rem;">
+                            <div class="absolute rounded-l w-35 h-full flex items-center justify-center bg-gray-100 border text-gray-600"> 
+                               <i data-feather="calendar" class="w-4 h-4"></i> 
+                           </div> 
+                           <input type="text" class="datepicker input pl-12 border"> 
+                       </div> 
+                       
                         <div class="post intro-y overflow-hidden box mt-5">
                             <div class="post__tabs nav-tabs flex flex-col sm:flex-row bg-gray-200 text-gray-600">
                                 <a title="Fill in the article content" data-toggle="tab" data-target="#content" href="javascript:;" class="tooltip w-full sm:w-40 py-4 text-center flex justify-center items-center active"> <i data-feather="file-text" class="w-4 h-4 mr-2"></i> Content </a>
@@ -95,7 +100,7 @@ License: You must have a valid license purchased only from themeforest(the above
             <!-- END: Content -->
         </div>
         <div class="ajouter">
-            <button class="button w-35 mr-1 mt-2 bg-orange-300 text-white">Ajouter Un Projet</button>
+            <button class="button w-35 mr-1 mt-2 bg-orange-300 text-white" href="">Ajouter Un Projet</button>
         
         </div>
     
