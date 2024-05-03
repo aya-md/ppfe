@@ -7575,6 +7575,24 @@ breadcumb-style
 .Word_of{
     color: black;
 }
+@media (max-width:850px){
+    .wt{
+        height: 80px;
+        width: 600px;
+        padding-left: 20px;
+        width: 500px;
+    
+    }
+}
+
+@media (max-width:813px){
+    .wp{
+        width: 500px;
+        padding-left: 80px;
+        height: 300px;
+        
+    }
+}
 .auparagraph{
     
     width: 50vw;
@@ -7582,6 +7600,7 @@ breadcumb-style
     font-weight: 500;
     margin-bottom: 60px;
 }
+
 .au{
     width: 15vw;
     padding-bottom: 8px;
@@ -7642,6 +7661,7 @@ font-weight: 600;
     align-items: center;
     
 }
+
 
 /*----------------------------------------------
 end*
