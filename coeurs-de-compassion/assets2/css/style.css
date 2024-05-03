@@ -4138,7 +4138,7 @@ ul {
 }
 @media (max-width:507px){
     .section-title-1 h2:before {
-        transform: translateX(-25%);
+        transform: translateX(-27%);
         
     }
 }
@@ -7592,12 +7592,7 @@ breadcumb-style
     }
 }
 
-@media (max-width:850px){
-    .au{
-        
-    
-    }
-}
+
 
 @media (max-width:813px){
     .wp{
@@ -7638,14 +7633,33 @@ breadcumb-style
 }
 }
 .au{
-    
     width: 40vw;
-
+   
     font-size: 36px;
     font-weight: 700;
     color: #000000;
     padding-bottom: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
     
+    
+
+}
+@media (max-width:768px){
+    .or{
+        width: 80vw !important;
+    }
+}
+.or{
+    margin-left: 30px;
+    width: 30vw;
+    border-bottom:4px solid #f67d4a ;
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+    padding-bottom: 10px;
+    border-radius: 2px;
     margin-bottom: 10px;
     position: relative;
     display: inline-block;
@@ -7655,7 +7669,7 @@ breadcumb-style
 .container1{
     margin-left: 0px;
     background: rgb(255,216,159);
-background: linear-gradient(0deg, rgba(255,216,159,1) 4%, rgba(255,255,255,1) 77%);
+    background: linear-gradient(0deg, rgba(255,216,159,1) 4%, rgba(255,255,255,1) 77%);
 }
 .volunteer{
    
@@ -7694,6 +7708,11 @@ font-weight: 600;
     justify-content: center;
     align-items: center;
     
+}
+@media (max-width:768px){
+.org{
+    min-height: 180vh;
+}
 }
 
 
