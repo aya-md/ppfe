@@ -3743,7 +3743,8 @@ input {
 }
 @media (max-width: 575px) {
   .donate__now input {
-    max-width: 100px;
+    max-width: 200px;
+    margin-left: -10px;
   }
 }
 
@@ -4086,4 +4087,121 @@ input {
 .container11{
   margin-top: -4.375rem;
 }
+@media(max-width:982px){
+.logom{
+  margin-left: -90px !important;
+}
+}
+@media(max-width:741px){
+  .logom{
+    margin-left: 10px !important;
+  }
+  }
+@media(max-width:767px){
+  .contd{
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+  }
+  @media(max-width:767px){
+    .ausec{
+      margin-top: -30px !important;
+    }
+    }
 
+    @media(max-width:767px){
+      .line{
+        width: 150px !important;
+        height: 200px;
+      }
+      }
+      @media(max-width:767px){
+      .acttm{
+       padding-top: 30px;
+      }
+    }
+    @media(max-width:1199px){
+      .actm{
+       width: 80%;
+       margin-bottom: 20px;
+       margin-top: -50px;
+       margin-left: 10%;
+      }
+    }
+    @media(max-width:767px){
+      .actm{
+       width: 80%;
+       margin-bottom: 20px;
+       margin-top: -50px;
+       margin-left: 10%;
+      }
+    }
+    @media(max-width:1199px){
+      .img77{
+        height: 190px;
+        width: 210px;
+      }
+    }
+
+    @media(max-width:767px){
+      .img77{
+        height: 190px;
+        width: 210px;
+      }
+    }
+    
+    @media(max-width:767px){
+      .amount-btn{
+        width: 85px;
+        display: flex;
+        justify-content: center;
+        
+        
+      }
+    }
+    
+    @media(max-width:767px){
+      .donate__amount{
+        margin-left: -5px;
+        
+      }
+    }
+    @media(max-width:767px){
+      .projm{
+        margin-top: 60px;
+      }
+    }
+    @media(max-width:767px){
+      .projim{
+      
+        margin-top: -60px !important;
+      }
+    }
+    @media(max-width:767px){
+      .annm{
+      
+        margin-top: 90px;
+        
+      }
+    }
+
+    @media(max-width:767px){
+      .anncm{
+      margin-bottom: 30px;
+      width: 400px;
+      margin-left: 40px;
+      }
+    }
+
+
+    @media(max-width:507px){
+      .partnerm{
+        margin-bottom: 30px;
+        margin-left: 30px;
+       
+       
+      }
+    }
+
+    

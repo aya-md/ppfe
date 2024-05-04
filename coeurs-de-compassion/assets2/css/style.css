@@ -4134,7 +4134,7 @@ ul {
     height: 3px;
     background: #f67d4a;
     border-radius: 20px;
-    transform: translateX(-70%);
+    transform: translateX(-50%);
 }
 @media (max-width:507px){
     .section-title-1 h2:before {
@@ -7625,13 +7625,23 @@ breadcumb-style
 }
 }
 @media (max-width:1226px){
+    .auimg{
+      margin-left: 60px;
+      width: 50% !important;
+      
+      
+  }
+  }
+@media (max-width:507px){
   .auimg{
+    margin-left: 60px;
+    width: 80% !important;
     
-    margin-left: 40px;
-    width: 70%;
     
 }
 }
+
+
 .au{
     width: 40vw;
    
@@ -7714,6 +7724,12 @@ font-weight: 600;
     min-height: 180vh;
 }
 }
+
+@media (max-width:768px){
+    .administration{
+        margin-right: 70px;
+    }
+    }
 
 
 /*----------------------------------------------
