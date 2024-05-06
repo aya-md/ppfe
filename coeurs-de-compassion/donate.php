@@ -71,11 +71,11 @@
                                                             </li>
                                                         </ul>
                                                     </div>
-                                                    <div id="open6" class="payment-info">
-                                                        <p>Nom du compte :**************** </p>
-                                                        <p>RIB :**************** </p>
-                                                        <p>IBAN :**************** </p>
-                                                        <p>Code SWIFT :**************** </p>
+                                                    <div id="open6" class="payment-info" style="text-align: center;">
+                                                        <h4>Nom du compte</h4> <p class="lead" >Association coeurs de compassion pour les orphelins et les veuves - OUARZAZATE </p>
+                                                        <h4>RIB: </h4> <p class="lead"> 011550000001200001215212 </p>
+                                                        <h4>IBAN : </h4><p class="lead"> MA640 011550000001200001215212</p>
+                                                        <h4>Code SWIFT : </h4> <p class="lead" >BMCEMAMC </p>
                                                     </div>
                                                     <div id="open5" class="payment-name">
                                                         
