@@ -206,7 +206,7 @@
     <div id="targetElement" class="sidebar-area sidebar__hide">
         <div class="sidebar__overlay"></div>
         <a href="index.php" class="logo mb-40">
-            <img src="assets/images/logo/logo-light.svg" alt="logo">
+            <img src="assets/images/logo/logoVF.png" alt="logo">
         </a>
         <div class="mobile-menu overflow-hidden"></div>
         

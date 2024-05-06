@@ -2082,6 +2082,12 @@ input {
   background-color: var(--primary-color);
   border-radius: 8px;
 }
+@media (max-width: 1200px) {
+  .btn-two {
+      display: none !important;
+     
+  }
+}
 .btn-one .btn-circle, .btn-two .btn-circle {
   border-radius: 100%;
   position: absolute;
