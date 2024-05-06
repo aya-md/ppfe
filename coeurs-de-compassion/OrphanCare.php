@@ -1,80 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hearts of mercy association</title>
-    <!-- Favicon img -->
-    
-    <link rel="shortcut icon" href="assets/images/favicon.png">
-    <!-- Bootstarp min css -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- Mean menu css -->
-    <link rel="stylesheet" href="assets/css/meanmenu.css">
-    <!-- All min css -->
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <!-- Swiper bundle min css -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <!-- Magnigic popup css -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!-- Animate css -->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <!-- Nice select css -->
-
-    <!-- Style css -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets2/css/style.css">
-    <link rel="stylesheet" href="assets/css/style -languages (1).css">
-
-
-    <link rel="stylesheet" href="multisteps/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css">
-	<link rel="stylesheet" href="multisteps/css/animate.min.css">
-	<link rel="stylesheet" href="multisteps/css/fontawesome-all.css">
-	<link rel="stylesheet" href="multisteps/css/styleOC.css">
-
-    <link href="assets2/css/themify-icons.css" rel="stylesheet">
-    <link href="assets2/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets2/css/flaticon.css" rel="stylesheet">
-    <link href="assets2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets2/css/animate.css" rel="stylesheet">
-    <link href="assets2/css/owl.carousel.css" rel="stylesheet">
-    <link href="assets2/css/owl.theme.css" rel="stylesheet">
-    <link href="assets2/css/slick.css" rel="stylesheet">
-    <link href="assets2/css/slick-theme.css" rel="stylesheet">
-    <link href="assets2/css/swiper.min.css" rel="stylesheet">
-    <link href="assets2/css/owl.transitions.css" rel="stylesheet">
-    <link href="assets2/css/jquery.fancybox.css" rel="stylesheet">
-    <link href="assets2/css/odometer-theme-default.css" rel="stylesheet">
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css">
-
-
-    <link href="assets2/css/style.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body>
-    
-
-    <!-- Preloader area start -->
-    <div id="loading">
-        <div id="loading-center">
-            <div id="loading-center-absolute">
-                <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
-                    <img class="loading-logo" src="assets/images/logo/enlogo.png" alt="icon">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Preloader area end -->
-
-
+<?php include 'include/header.php';?>
 <body class="bd">
     <!-- start page-wrapper -->
     <div class="page-wrapper">
@@ -83,10 +7,10 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="tp-breadcumb-wrap">
-                            <h2>Widow Support</h2>
+                            <h2>Orphan Care</h2>
                             <ul>
                                 <li><a href="index.html">Home</a></li>
-                                <li><span class="join-us-span">Widow Support</span></li>
+                                <li><span class="join-us-span">Orphan Care</span></li>
                             </ul>
                         </div>
                     </div>
@@ -108,9 +32,9 @@
                                     <form id="msform">
                                         <!-- progressbar -->
                                         <ul id="progressbar" style="display: flex;">
-                                            <li class="active" id="account"><strong>THE WIDOW</strong></li>
-                                            <li id="account"><strong>THE FATHER</strong></li>
-                                            <li id="personal"><strong>THE ORPHANS</strong></li>
+                                            <li class="active" id="account"><strong>THE ORPHAN</strong></li>
+                                            <li id="account"><strong>THE KAFIL</strong></li>
+                                            <li id="personal"><strong>THE FATHER</strong></li>
                                             <li id="payment"><strong>ACCOMODATION</strong></li>
                                             <li id="payment"><strong>EXTERNAL AIDS</strong></li>
                                             <li id="confirm"><strong>FINISH</strong></li>
@@ -122,121 +46,10 @@
                                             <div class="form-card">
                                                 <div class="row">
                                                     <div class="col-7">
-                                                        <h2 class="fs-title">Information about the WIDOW:</h2>
+                                                        <h2 class="fs-title">Information about the orphan:</h2>
                                                     </div>
                                                     <div class="col-5">
                                                         <h2 class="steps">Step 1 - 6</h2>
-                                                    </div>
-                                                </div>
-                                                <label class="fieldlabels">Full Name: *</label>
-                                                <input type="text" name="uname" placeholder="Full Name" />
-                                                <label class="fieldlabels">Birth date: *</label>
-                                                <div class="date-picker date datepicker">
-                                                    <input type="text" name="date" class="form-control"
-                                                        placeholder="Enter you birth date">
-                                                    <div class="input-group-append"><span></span></div>
-                                                </div>
-                                                <label class="fieldlabels">CIN: *</label>
-                                                <input type="text" name="uname" placeholder="CIN" />
-                                                <label class="fieldlabels">Eduaction level: *</label>
-                                              
-                                                <div class="education-select">
-                                                    <select class="form-select form-select-md mb-3" name="languages">
-                                                        <option>Primary school</option>
-                                                        <option>Secondary school</option>
-                                                        <option>High school</option>
-                                                        <option>Other</option>
-                                                    </select>
-                                                </div>
-                                                
-
-                                                <label class="fieldlabels">Health Status:</label>                                                                                                                    
-                                                    <div class="HealthStatus">
-                                                            <input type="radio"  name="gender" value="Male">
-                                                            <b>Good</b>
-                                                     
-                                                            <input type="radio" name="gender" value="Female">
-                                                            <b>Poor</b>  
-                                                    </div>
-                                                    <label class="fieldlabels">Health problems</label>
-                                                    <input type="text" name="uname" placeholder="enter your health problems" />
-                                                    <label class="fieldlabels">Job: *</label>
-                                                    <input type="text" name="uname" placeholder="Job" />
-                                                    <label class="fieldlabels">Salary: *</label>
-                                                    <input type="text" name="uname" placeholder="Salary" />
-                                                    <label class="fieldlabels">Do you Have RAMEED card?</label>                                                                                                                    
-                                                    <div class="RAMEED">
-                                                            <input type="radio"  name="RAMEED" value="Yes">
-                                                            <b>Yes</b>
-                                                     
-                                                            <input type="radio" name="RAMEED" value="No">
-                                                            <b>No</b>    
-                                                    </div>
-                                                    <label class="fieldlabels">Validity of the RAMEED card*</label>
-                                                    <input type="text" name="uname" placeholder="Validity" />
-                                                    <div class="education-select">
-                                                        <label class="fieldlabels">Do you Benefit from</label>
-                                                        <select class="form-select form-select-md mb-3" name="languages">
-                                                            <option>Widows pension</option>
-                                                            <option>Retirement funds</option>
-                                                            <option>None</option>
-                                                        </select>
-                                                    </div>
-                                                    <label class="fieldlabels">Its value: *</label>
-                                                    <input type="text" name="uname" placeholder="Value" />
-                                            </div> <input type="button" name="next" class="next action-button" value="Next" />
-                                        </fieldset>
-                                        
-                                             
-                                        <fieldset>
-                                            <div class="form-card">
-                                                <div class="row">
-                                                    <div class="col-7">
-                                                        <h2 class="fs-title">Information about the FATHER:</h2>
-                                                    </div>
-                                                    <div class="col-5">
-                                                        <h2 class="steps">Step 2 - 6</h2>
-                                                    </div>
-                                                </div>
-                                                <label class="fieldlabels">Full Name: *</label>
-                                                <input type="text" name="uname" placeholder="Full Name" />
-                                                <label class="fieldlabels">Death date: *</label>
-                                                <div class="date-picker date datepicker">
-                                                    <input type="text" name="date" class="form-control"
-                                                        placeholder="Enter the father death date">
-                                                    <div class="input-group-append"><span></span></div>
-                                                </div>
-                                                <label class="fieldlabels">Death cause: *</label>
-                                                <input type="text" name="uname" placeholder="Enter the father death cause" />
-                                                <label class="fieldlabels">Job: *</label>
-                                                <input type="text" name="uname" placeholder="Job" />
-
-                                                <label class="fieldlabels">Employer: *</label>
-                                                <input type="text" name="uname" placeholder="Employer" />                                             
-
-                                                <label class="fieldlabels">Social Insurance:</label>                                                                                                                    
-                                                    <div class="HealthStatus">
-                                                            <input type="radio"  name="gender" value="Male">
-                                                            <b>CNSS</b>
-                                                     
-                                                            <input type="radio" name="gender" value="Female">
-                                                            <b>Retirement</b> 
-                                                            
-                                                            <input type="radio" name="gender" value="Female">
-                                                            <b>None</b> 
-                                                    </div>
-                                            </div> <input type="button" name="next" class="next action-button" value="Next" />
-                                        </fieldset>
-
-                                              
-                                        <fieldset>
-                                            <div class="form-card">
-                                                <div class="row">
-                                                    <div class="col-7">
-                                                        <h2 class="fs-title">Information about the ORPHANS:</h2>
-                                                    </div>
-                                                    <div class="col-5">
-                                                        <h2 class="steps">Step 3 - 6</h2>
                                                     </div>
                                                 </div>
                                                 <label class="fieldlabels">Full Name: *</label>
@@ -276,8 +89,70 @@
                                                             <input type="radio" name="gender" value="Female">
                                                             <b>Poor</b>     
                                                     </div>
-                                                    <label class="fieldlabels">Health problems</label>
+                                                    <label class="fieldlabels">Health problems:</label>
                                                     <input type="text" name="uname" placeholder="enter the orphan's health problems" />
+                                            </div> <input type="button" name="next" class="next action-button" value="Next" />
+                                        </fieldset>
+                                        <fieldset>
+                                            <div class="form-card">
+                                                <div class="row">
+                                                    <div class="col-7">
+                                                        <h2 class="fs-title">Information about the KAFIL:</h2>
+                                                    </div>
+                                                    <div class="col-5">
+                                                        <h2 class="steps">Step 2 - 6</h2>
+                                                    </div>
+                                                </div>
+                                                <label class="fieldlabels">Full Name: *</label>
+                                                <input type="text" name="uname" placeholder="Full Name" />
+                                            
+                                                <label class="fieldlabels">CIN: *</label>
+                                                <input type="text" name="uname" placeholder="CIN" />
+                                                <label class="fieldlabels">Phone number: *</label>
+                                                <input type="tel" name="uname" placeholder="Phone number" />
+                                                <label class="fieldlabels">Address: *</label>
+                                                <textarea name="adress" id="" cols="30" rows="10"></textarea>
+
+                                                
+                                            </div> <input type="button" name="next" class="next action-button" value="Next" />
+                                        </fieldset>
+                                        <fieldset>
+                                            <div class="form-card">
+                                                <div class="row">
+                                                    <div class="col-7">
+                                                        <h2 class="fs-title">Information about the FATHER:</h2>
+                                                    </div>
+                                                    <div class="col-5">
+                                                        <h2 class="steps">Step 3 - 6</h2>
+                                                    </div>
+                                                </div>
+                                                <label class="fieldlabels">Full Name: *</label>
+                                                <input type="text" name="uname" placeholder="Full Name" />
+                                                <label class="fieldlabels">Death date: *</label>
+                                                <div class="date-picker date datepicker">
+                                                    <input type="text" name="date" class="form-control"
+                                                        placeholder="Enter the father death date">
+                                                    <div class="input-group-append"><span></span></div>
+                                                </div>
+                                                <label class="fieldlabels">Death cause: *</label>
+                                                <input type="text" name="uname" placeholder="Enter the father death cause" />
+                                                <label class="fieldlabels">Job: *</label>
+                                                <input type="text" name="uname" placeholder="Job" />
+
+                                                <label class="fieldlabels">Employer: *</label>
+                                                <input type="text" name="uname" placeholder="Employer" />                                             
+
+                                                <label class="fieldlabels">Social Insurance:</label>                                                                                                                    
+                                                    <div class="HealthStatus">
+                                                            <input type="radio"  name="gender" value="Male">
+                                                            <b>CNSS</b>
+                                                     
+                                                            <input type="radio" name="gender" value="Female">
+                                                            <b>Retirement</b> 
+                                                            
+                                                            <input type="radio" name="gender" value="Female">
+                                                            <b>None</b> 
+                                                    </div>
                                             </div> <input type="button" name="next" class="next action-button" value="Next" />
                                         </fieldset>
                                         <fieldset>
@@ -353,9 +228,10 @@
                                               
                                                 <label class="fieldlabels">What is the value or amount of this aid? *</label>
                                                 <input type="text" name="uname" placeholder="Aid value" />
+                                                
                                               
                                                 <div class="education-select">
-                                                    <label class="fieldlabels">How often do you receive assistance?:</label>
+                                                    <label class="fieldlabels">How often do you receive assistance? :</label>
                                                     <select class="form-select form-select-md mb-3" name="languages">
                                                         <option>Weekly</option>
                                                         <option>monthly</option>
@@ -398,62 +274,4 @@
         </div>
     </div>
 
-    <!-- volunteer-area-end -->
-
-    <!-- end of page-wrapper -->
-    <div class="scroll-up">
-        <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-        </svg>
-    </div>
-    
-    <!-- All JavaScript files
-    ================================================== -->
-    <script src="assets2/js/jquery.min.js"></script>
-    
-    <!-- Plugins for this template -->
-    <script src="assets2/js/jquery-plugin-collection.js"></script>
-    <script src="assets2/js/gsap.min.js"></script>
-    <!-- Custom script for this template -->
-    <script src="assets2/js/script.js"></script>
-
-    <!-- Jquery 3. 7. 1 Min Js -->
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <!-- Bootstrap min Js -->
-  
-    <!-- Mean menu Js -->
-    <script src="assets/js/meanmenu.js"></script>
-    <!-- Swiper bundle min Js -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <!-- Counterup min Js -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <!-- Wow min Js -->
-    <script src="assets/js/wow.min.js"></script>
-    <!-- Magnific popup min Js -->
-    <script src="assets/js/magnific-popup.min.js"></script>
-    <!-- Nice select min Js -->
-    
-    <!-- Isotope pkgd min Js -->
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <!-- Waypoints Js -->
-    <script src="assets/js/jquery.waypoints.js"></script>
-    <!-- Script Js -->
-    <script src="assets/js/script.js"></script>
-
-    
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
-   
-    <script src="multisteps/js/mainOC.js"></script>
-    <script src="multisteps/js/jquery-3.3.1.min.js"></script>
-    <script src="multisteps/js/jquery.validate.min.js"></script>
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
-    <script src="multisteps/js/bootstrap.min.js"></script>
-    <script src="multisteps/js/conditionize.flexible.jquery.min.js"></script>
-    <script src="multisteps/js/main.js"></script>
-    <script src="multisteps/js/switch.js"></script>
-   
-</body>
-
-</html>
+    <?php include 'include/footer.php';?>

@@ -1,77 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include 'include/header.php';?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hearts of mercy association</title>
-    <!-- Favicon img -->
-    <link rel="shortcut icon" href="assets/images/favicon.png">
-    <!-- Bootstarp min css -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- Mean menu css -->
-    <link rel="stylesheet" href="assets/css/meanmenu.css">
-    <!-- All min css -->
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <!-- Swiper bundle min css -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <!-- Magnigic popup css -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!-- Animate css -->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <!-- Nice select css -->
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <!-- Style css -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets2/css/style.css">
-    <link rel="stylesheet" href="assets/css/style -languages (1).css">
-    <link rel="stylesheet" href="assets/css/style_organigramme.css">
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="wpoceans">
-    <title>hearts of mercy association</title>
-    <link href="assets2/css/themify-icons.css" rel="stylesheet">
-    <link href="assets2/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets2/css/flaticon.css" rel="stylesheet">
-    <link href="assets2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets2/css/animate.css" rel="stylesheet">
-    <link href="assets2/css/owl.carousel.css" rel="stylesheet">
-    <link href="assets2/css/owl.theme.css" rel="stylesheet">
-    <link href="assets2/css/slick.css" rel="stylesheet">
-    <link href="assets2/css/slick-theme.css" rel="stylesheet">
-    <link href="assets2/css/swiper.min.css" rel="stylesheet">
-    <link href="assets2/css/owl.transitions.css" rel="stylesheet">
-    <link href="assets2/css/jquery.fancybox.css" rel="stylesheet">
-    <link href="assets2/css/odometer-theme-default.css" rel="stylesheet">
-    <link href="assets2/css/nice-select.css" rel="stylesheet">
-    <link href="assets2/css/style.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-<body>
-    <!-- start page-wrapper -->
-    <div class="page-wrapper">
-       <!-- Preloader area start -->
-    <div id="loading">
-        <div id="loading-center">
-            <div id="loading-center-absolute">
-                <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
-                    <img class="loading-logo" src="assets/images/logo/enlogo.png" alt="icon">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Preloader area end -->
-
-
-    
         <!-- .tp-breadcumb-area start -->
         <div class="tp-breadcumb-area">
             <div class="container">
@@ -144,7 +72,7 @@
         
        <!-- aboout us end -->
    
-       <div class="org" style="height : 110vh; background-color: rgba(255,216,159,1);">
+       <div class="org" style="height : 130vh; background-color: rgba(255,216,159,1);">
         <h1 class="or" style="width: 30%; margin-top: 70px;">Organizational Chart</h1>
         <figure class="org-chart cf">
           <ul class="administration"style="margin-left:7rem;">
@@ -191,56 +119,4 @@
         </figure>
       </div>
       
-    <!-- end of page-wrapper -->
-    <div id="magic-cursor">
-        <div id="ball">
-            <div id="ball-drag-x"></div>
-            <div id="ball-drag-y"></div>
-            <div id="ball-loader"></div>
-        </div>
-    </div>
-    <!-- All JavaScript files
-    ================================================== -->
-    <script src="assets2/js/jquery.min.js"></script>
-    <script src="assets2/js/bootstrap.min.js"></script>
-    <!-- Plugins for this template -->
-    <script src="assets2/js/jquery-plugin-collection.js"></script>
-    <script src="assets2/js/gsap.min.js"></script>
-    <!-- Custom script for this template -->
-    <script src="assets2/js/script.js"></script>
-
-
-
-    <div class="scroll-up">
-        <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-        </svg>
-    </div>
-
-
-
-     <!-- Jquery 3. 7. 1 Min Js -->
-     <script src="assets/js/jquery-3.7.1.min.js"></script>
-     <!-- Bootstrap min Js -->
-     <script src="assets/js/bootstrap.min.js"></script>
-     <!-- Mean menu Js -->
-     <script src="assets/js/meanmenu.js"></script>
-     <!-- Swiper bundle min Js -->
-     <script src="assets/js/swiper-bundle.min.js"></script>
-     <!-- Counterup min Js -->
-     <script src="assets/js/jquery.counterup.min.js"></script>
-     <!-- Wow min Js -->
-     <script src="assets/js/wow.min.js"></script>
-     <!-- Magnific popup min Js -->
-     <script src="assets/js/magnific-popup.min.js"></script>
-     <!-- Nice select min Js -->
-     <script src="assets/js/nice-select.min.js"></script>
-     <!-- Isotope pkgd min Js -->
-     <script src="assets/js/isotope.pkgd.min.js"></script>
-     <!-- Waypoints Js -->
-     <script src="assets/js/jquery.waypoints.js"></script>
-     <!-- Script Js -->
-     <script src="assets/js/script.js"></script>
-</body>
-
-</html>
+      <?php include 'include/footer.php';?>
