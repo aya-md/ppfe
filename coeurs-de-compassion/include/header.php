@@ -131,7 +131,7 @@
     <header class="header-area">
         <div class="container">
             <div class="header__main">
-                <a href="index.php" class="logo" style=" margin-left: -110px; width: 13em;">
+                <a href="index.php" class="logo" style="width: 13em;">
                     <img src="assets/images/logo/logoVF.png" alt="logo" >
                 </a>
                 <div class="main-menu">

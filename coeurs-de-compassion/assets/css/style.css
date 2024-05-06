@@ -159,6 +159,8 @@ h1 {
   font-weight: 700;
   line-height: 72px;
 }
+
+
 @media (max-width: 767px) {
   h1 {
     font-size: 34px;
@@ -2498,7 +2500,7 @@ input {
 .header__main .main-menu ul {
   display: flex;
   align-items: center;
-  gap: 35px;
+  gap: 25px;
 }
 .header__main .main-menu ul li {
   position: relative;
