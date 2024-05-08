@@ -24,16 +24,16 @@
                 <div class="row">
                     <div class="col col-xs-12 sortable-gallery">
                         <div class="gallery-filters">
-                            <div class="section-title">
-                                <h2>Our Gallery</h2>
+                            <div class="">
+                                <h2 class="h2t">Our Gallery</h2>
                             </div>
                             <ul>
-                                <li><a data-filter="*" href="#" class="current">All</a></li>
-                                <li><a data-filter=".Food" href="#">Food baskets</a></li>
-                                <li><a data-filter=".orphan" href="#">Orphan's day</a></li>
-                                <li><a data-filter=".Home" href="#">Home maintenance</a></li>               
-                                <li><a data-filter=".wells" href="#">Drilling wells</a></li> 
-                                <li><a data-filter=".cloths" href="#">cloths and blankets</a></li> 
+                                <li><a data-filter="*" href="#" class="current" style="color:black;font-weight:800;">All</a></li>
+                                <li><a data-filter=".Food" href="#" style="color:black;font-weight:800;">Food baskets</a></li>
+                                <li><a data-filter=".orphan" href="#"style="color:black;font-weight:800;">Orphan's day</a></li>
+                                <li><a data-filter=".Home" href="#"style="color:black;font-weight:800;">Home maintenance</a></li>               
+                                <li><a data-filter=".wells" href="#"style="color:black;font-weight:800;">Drilling wells</a></li> 
+                                <li><a data-filter=".cloths" href="#"style="color:black;font-weight:800;">cloths and blankets</a></li> 
                             </ul>
                         </div>
                         <div class="gallery-container gallery-fancybox masonry-gallery">

@@ -4209,5 +4209,53 @@ input {
       }
     }
 
+    @media(max-width:507px){
+      .actimg2{
+       width: 45rem !important;
+       height: 10rem !important;
+       margin-left: -15px !important;
+      }
+    }
+    
+    @media(max-width:507px){
+      .titleact1{
+        font-size: 18px !important ;
+        margin-top: -30px;
+      }
+    }
+
+    @media (max-width:507px) {
+      .paract2{
+        font-size:13px;
+       width: 220px;
+
+      }
+    }
+
+    @media(max-width:507px){
+      .test2{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+       
+      }
+    }
+
+    @media(max-width:507px){
+      .tst2{
+        margin-top: 30px;
+       
+      }
+    }
 
     
+      .pr2{
+        margin-top: -50px;
+
+      }
+@media (max-width:507px){
+      .pr2{
+        margin-top: -10px;
+
+      }
+    }

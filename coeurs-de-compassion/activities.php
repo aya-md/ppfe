@@ -32,7 +32,7 @@
                             <div class="cause__item cause-list__item mb-30 test1">
                                 <div class="cause__image image">
                                     <img src="assets/images/cause/cause-image333.jpg" alt="image" style="width: 19rem;height: 17rem;" class="actimg1">
-                                    <span class="cause-tag acttag">Food Assistance</span>
+                                    <span class="cause-tag ">Food Assistance</span>
                                 </div>
                                 <div class="cause__content">
                                     <h4 id="act" class="mb-2 titleact"><a href="index.php#act" class="primary-hover"><strong>The monthly basket</strong></a></h4>
