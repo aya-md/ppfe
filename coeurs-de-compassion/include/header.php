@@ -62,22 +62,7 @@
                 <link href="assets2/css/nice-select.css" rel="stylesheet">
                 <link href="assets2/css/style.css" rel="stylesheet">';}
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+     
 
 
 ?>

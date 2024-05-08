@@ -10,7 +10,7 @@
                         <div class="tp-breadcumb-wrap">
                             <h2>Widow Support</h2>
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li><span class="join-us-span">Widow Support</span></li>
                             </ul>
                         </div>

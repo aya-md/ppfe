@@ -13,14 +13,14 @@
                     <div class="row g-4 justify-content-between">
                         <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="footer__item">
-                                <a href="index.html" class="logo mb-40">
+                                <a href="index.php" class="logo mb-40">
                                     <img src="assets/images/icon/about-icon1.png" alt="image">
                                 </a>
                                 <p class="text-white">Your contribution helps our charitable association provide vital support to those in need, offering hope and security to orphans and widows.</p>
                                 <div class="btn-one mt-40">
                                     <span class="btn-circle">
                                     </span>
-                                    <a href="donate.html" class="btn-inner">
+                                    <a href="donate.php" class="btn-inner">
                                         <span class="btn-text">
                                             DONATE NOW
                                         </span>
@@ -33,16 +33,16 @@
                                 <h3 class="title mb-40 text-white">Quick Links</h3>
                                 <ul class="link">
                                     <li class="mb-3">
-                                        <a href="index.html"><i class="fa-light fa-angles-right me-2"></i> Home</a>
+                                        <a href="index.php"><i class="fa-light fa-angles-right me-2"></i> Home</a>
                                     </li>
                                     <li class="mb-3">
-                                        <a href="joinus.html"><i class="fa-light fa-angles-right me-2"></i> Join us</a>
+                                        <a href="joinus.php"><i class="fa-light fa-angles-right me-2"></i> Join us</a>
                                     </li>
                                     <li class="mb-3">
-                                        <a href="who_we_are.html"><i class="fa-light fa-angles-right me-2"></i> Who we are</a>
+                                        <a href="who_we_are.php"><i class="fa-light fa-angles-right me-2"></i> Who we are</a>
                                     </li>
                                     <li>
-                                        <a href="contact.html"><i class="fa-light fa-angles-right me-2"></i> Contact
+                                        <a href="contact.php"><i class="fa-light fa-angles-right me-2"></i> Contact
                                             Us</a>
                                     </li>
                                 </ul>
@@ -67,7 +67,7 @@
                                             <img src="assets/images/blog/blog-image4.jpeg" alt="image" style="height:5rem;">
                                         </div>
                                         <div class="con"><span>22,march 2024</span>
-                                            <a href="blog-single">
+                                            <a href="">
                                                 Share the blessings of Ramadan with widows and orphans.
                                             </a>
                                         </div>

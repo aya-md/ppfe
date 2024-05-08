@@ -2,7 +2,7 @@
 
     <div id="targetElement" class="sidebar-area sidebar__hide">
         <div class="sidebar__overlay"></div>
-        <a href="index.html" class="logo mb-40">
+        <a href="index.php" class="logo mb-40">
             <img src="assets/images/logo/logosansnom.png" alt="logo" style="margin-top: -60px; margin-left:-40px;">
         </a>
         <div class="mobile-menu overflow-hidden"></div>
@@ -27,7 +27,7 @@
                                 <div class="btn-one mt-50" data-animation="fadeInUp" data-delay="1s">
                                     <span class="btn-circle">
                                     </span>
-                                    <a href="donate.html" class="btn-inner">
+                                    <a href="donate.php" class="btn-inner">
                                         <span class="btn-text">
                                             DONATE NOW
                                         </span>
@@ -46,7 +46,7 @@
                                 <div class="btn-one mt-50" data-animation="fadeInUp" data-delay="1s">
                                     <span class="btn-circle">
                                     </span>
-                                    <a href="donate.html" class="btn-inner">
+                                    <a href="donate.php" class="btn-inner">
                                         <span class="btn-text">
                                             DONATE NOW
                                         </span>
@@ -127,7 +127,7 @@
                                     <div class="btn-two">
                                         <span class="btn-circle">
                                         </span>
-                                        <a href="who_we_are.html" class="btn-inner">
+                                        <a href="who_we_are.php" class="btn-inner">
                                             <span class="btn-text">
                                                 ABOUT MORE
                                             </span>
@@ -152,7 +152,7 @@
             <div class="container ">
                 <div class="section-header mb-60 text-center acttm">
                     <h5 id="act" class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                       <a href="activities.html#act" style="color: #f74f22;"> <i class="fa-regular fa-angles-left pe-1"></i>Activities<i
+                       <a href="activities.php#act" style="color: #f74f22;"> <i class="fa-regular fa-angles-left pe-1"></i>Activities<i
                             class="fa-regular fa-angles-right ps-1"></i></a>
                     </h5>
                     <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Introducing Our Activities
@@ -166,7 +166,7 @@
                                 <span class="cause-tag digging-wells ">reinforcement lessons</span>
                             </div>
                             <div class="cause__content">
-                                <h4 class="mb-4 mt-20"><a href="activities.html" class="primary-hover">Building a Brighter Paths for Orphans</a></h4>
+                                <h4 class="mb-4 mt-20"><a href="activities.php" class="primary-hover">Building a Brighter Paths for Orphans</a></h4>
                                 
                             </div>
                         </div>
@@ -178,7 +178,7 @@
                                 <span class="cause-tag">Food baskets</span>
                             </div>
                             <div class="cause__content">
-                                <h4 class="mb-4 mt-20"><a href="activities.html" class="primary-hover">Providing Sustenance for Vulnerable Families.</a></h4>
+                                <h4 class="mb-4 mt-20"><a href="activities.php" class="primary-hover">Providing Sustenance for Vulnerable Families.</a></h4>
                                 
                             </div>
                         </div>
@@ -190,7 +190,7 @@
                                 <span class="cause-tag">Orphan's Backpack</span>
                             </div>
                             <div class="cause__content">
-                                <h4 class="mb-4 mt-20"><a href="activities.html" class="primary-hover">Backpacks for Orphans: Back-to-School Joy.</a></h4>
+                                <h4 class="mb-4 mt-20"><a href="activities.php" class="primary-hover">Backpacks for Orphans: Back-to-School Joy.</a></h4>
                                 
                             </div>
                         </div>
@@ -202,7 +202,7 @@
                                 <span class="cause-tag">Eid eudhiya</span>
                             </div>
                             <div class="cause__content">
-                                <h4 class="mb-4 mt-20"><a href="activities.html" class="primary-hover">Eid eudhiya for Needy Families
+                                <h4 class="mb-4 mt-20"><a href="activities.php" class="primary-hover">Eid eudhiya for Needy Families
                                         </a></h4>
                         </div>
                     </div>
@@ -375,9 +375,9 @@
                             </div>
                             <div class="project__content">
                                 <div class="con">
-                                    <h4 ><a href="project.html#baking" class="text-white">Pastry shop</a></h4>
+                                    <h4 ><a href="project.php#baking" class="text-white">Pastry shop</a></h4>
                                 </div>
-                                <a href="project.html" class="next-btn"><i
+                                <a href="project.php" class="next-btn"><i
                                         class="fa-regular fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -389,9 +389,9 @@
                             </div>
                             <div class="project__content">
                                 <div class="con">
-                                    <h4 id="baking"><a href="project.html#baking" class="text-white">Drilling wells</a></h4>
+                                    <h4 id="baking"><a href="project.php#baking" class="text-white">Drilling wells</a></h4>
                                 </div>
-                                <a href="project.html" class="next-btn"><i
+                                <a href="project.php" class="next-btn"><i
                                         class="fa-regular fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -403,9 +403,9 @@
                             </div>
                             <div class="project__content">
                                 <div class="con">
-                                    <h4 ><a href="project.html#baking" class="text-white">Home repair</a></h4>
+                                    <h4 ><a href="project.php#baking" class="text-white">Home repair</a></h4>
                                 </div>
-                                <a href="project.html" class="next-btn"><i
+                                <a href="project.php" class="next-btn"><i
                                         class="fa-regular fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -417,9 +417,9 @@
                             </div>
                             <div class="project__content">
                                 <div class="con">
-                                    <h4 id="baking"><a href="project.html#baking" class="text-white">Home repair</a></h4>
+                                    <h4 id="baking"><a href="project.php#baking" class="text-white">Home repair</a></h4>
                                 </div>
-                                <a href="project.html" class="next-btn"><i
+                                <a href="project.php" class="next-btn"><i
                                         class="fa-regular fa-arrow-right"></i></a>
                             </div>
                         </div>

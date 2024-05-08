@@ -10,7 +10,7 @@
                         <div class="tp-breadcumb-wrap">
                             <h2 >Gallery</h2>
                             <ul>
-                                <li ><a href="index.html" >Home</a></li>
+                                <li ><a href="index.php" >Home</a></li>
                                 <li ><a href="" >Our achievments</a></li>
                                 <li><span class="wwa">Gallery</span></li>
                             </ul>

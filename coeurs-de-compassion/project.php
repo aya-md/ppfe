@@ -8,7 +8,7 @@
                         <div class="tp-breadcumb-wrap">
                             <h2>Our projects</h2>
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li><span class="join-us-span">Our projects</span></li>
                             </ul>
                         </div>
@@ -49,7 +49,7 @@
                                 
                             </div>
                             <div class="cause__content cont1">
-                                <h4 id="baking" class="mb-2" style="font-size: 25px;"><a href="index.html#baking" class="primary-hover"><strong>Pastry shop</strong></a></h4>
+                                <h4 id="baking" class="mb-2" style="font-size: 25px;"><a href="index.php#baking" class="primary-hover"><strong>Pastry shop</strong></a></h4>
                                 <p class="mb-3">Empowering widows through entrepreneurship, our charitable association establishes pastry shops as income-generating projects. 
                                     With each oven baked delight, we not only sweeten palates but also offer a path to financial independence and resilience. 
                                     Through these endeavors, we provide widows with the tools and support needed to thrive, one delectable treat at a time.</p>
@@ -62,7 +62,7 @@
                                 
                             </div>
                             <div class="cause__content cont2">
-                                <h4  id="baking" class="mb-2" style="font-size: 25px;"><a href="index.html#baking" class="primary-hover"><strong>Home maintenance</strong> </a></h4>
+                                <h4  id="baking" class="mb-2" style="font-size: 25px;"><a href="index.php#baking" class="primary-hover"><strong>Home maintenance</strong> </a></h4>
                                 <p class="mb-3">In the wake of the devastating earthquake that struck our nation, 
                                     our charitable association, dedicated to the welfare of widows and orphans, 
                                     swiftly mobilized to repair their shattered homes. With unwavering compassion, 
@@ -78,7 +78,7 @@
                                 
                             </div>
                             <div class="cause__content cont3">
-                                <h4 id="baking"  class="mb-2" style="font-size: 25px;"><a href="index.html#baking" class="primary-hover"><strong>Drilling Wells</strong> </a></h4>
+                                <h4 id="baking"  class="mb-2" style="font-size: 25px;"><a href="index.php#baking" class="primary-hover"><strong>Drilling Wells</strong> </a></h4>
                                 <p class="mb-3">our initiative extends beyond shelter and sustenance, drilling wells in areas plagued by water scarcity. 
                                     In these regions, where countless families, particularly those led by widows and orphans, 
                                     endure the burden of thirst, our efforts offer a lifeline. Through the provision of clean, 

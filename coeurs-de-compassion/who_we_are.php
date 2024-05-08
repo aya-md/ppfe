@@ -8,7 +8,7 @@
                         <div class="tp-breadcumb-wrap">
                             <h2 >Who we are</h2>
                             <ul>
-                                <li ><a href="index.html" >Home</a></li>
+                                <li ><a href="index.php" >Home</a></li>
                                 <li><span class="wwa">Who we are</span></li>
                             </ul>
                         </div>
