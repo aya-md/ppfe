@@ -250,18 +250,18 @@ import chart, { helpers } from 'chart.js'
         let myChart = new chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug'],
+                labels: ['Janz', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug'],
                 datasets: [{
-                    label: 'Html Template',
+                    label: 'Les orphelins',
                     barPercentage: 0.5,
                     barThickness: 6,
                     maxBarThickness: 8,
                     minBarLength: 2,
-                    data: [0, 200, 250, 200, 500, 450, 850, 1050],
+                    data: [0, 0, 0, 200, 500, 450, 850, 1050],
                     backgroundColor: '#3160D8'
                 },
                 {
-                    label: 'VueJs Template',
+                    label: 'Les veuves',
                     barPercentage: 0.5,
                     barThickness: 6,
                     maxBarThickness: 8,
@@ -309,7 +309,7 @@ import chart, { helpers } from 'chart.js'
             data: {
                 labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug'],
                 datasets: [{
-                    label: 'Html Template',
+                    label: 'Orphelins',
                     barPercentage: 0.5,
                     barThickness: 6,
                     maxBarThickness: 8,
@@ -366,7 +366,7 @@ import chart, { helpers } from 'chart.js'
             data: {
                 labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
                 datasets: [{
-                    label: 'Html Template',
+                    label: 'Orphelins',
                     barPercentage: 0.5,
                     barThickness: 6,
                     maxBarThickness: 8,
@@ -374,7 +374,7 @@ import chart, { helpers } from 'chart.js'
                     backgroundColor: '#3160D8',
                     data: helper.randomNumbers(-100, 100, 12)
                 }, {
-                    label: 'VueJs Template',
+                    label: 'Veuves',
                     barPercentage: 0.5,
                     barThickness: 6,
                     maxBarThickness: 8,
@@ -424,7 +424,7 @@ import chart, { helpers } from 'chart.js'
             data: {
                 labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
                 datasets: [{
-                    label: 'Html Template',
+                    label: 'Orphelins',
                     data: [0, 200, 250, 200, 500, 450, 850, 1050, 950, 1100, 900, 1200],
                     borderWidth: 2,
                     borderColor: '#3160D8',
@@ -432,7 +432,7 @@ import chart, { helpers } from 'chart.js'
                     pointBorderColor: 'transparent'
                 },
                 {
-                    label: 'VueJs Template',
+                    label: 'Veuves',
                     data: [0, 300, 400, 560, 320, 600, 720, 850, 690, 805, 1200, 1010],
                     borderWidth: 2,
                     borderDash: [2, 2],

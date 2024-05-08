@@ -82,7 +82,7 @@
                                     <li class="mb-3">
                                         <a href="tel:+8555-2546-2566"><i
                                                 class="fa-solid fa-phone me-1 primary-color"></i>
-                                                GSM: 06 66 07 71 50</a>
+                                                GSM: 07  01 21 58 74</a>
                                     </li>
                                     <li class="mb-3">
                                         <a href="#0"><i class="fa-sharp fa-solid fa-envelope me-1 primary-color"></i>
