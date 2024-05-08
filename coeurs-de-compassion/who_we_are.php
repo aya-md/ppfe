@@ -87,7 +87,7 @@
                     <li><a style="background-color: #f77b38;" href="#"><span>Administration</span></a></li>
                     
                     <li class="department dep-a">
-                      <a style="background-color: #f67d4a;"href="#"><span>Secratary <br>Moustapha BOUJMLA</span></a>
+                      <a style="background-color: #f67d4a;"href="#"><span>General secratary <br>Moustapha BOUJMLA</span></a>
                       <ul class="sections">
                         <li class="section"><a style="background-color: #f67d4a;"href="#"><span>Vice Secratary <br> RACHIDA BIKRINE</span></a></li>
                       
