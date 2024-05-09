@@ -21,11 +21,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <div class="section-title text-center">
+                        <div class="text-center">
                             <div class="thumb-text">
-                                <span>Donate</span>
+                                <span style="color:#f67d4a;">Donate</span>
                             </div>
-                            <h2>Make a Donation</h2>
+                            <h2 style="margin-bottom:20px;margin-left:10px; font-weight:bold; font-size:40px">Make a Donation</h2>
                         </div>
                         <div id="Donations" class="tab-pane">
                             <form action="POST">

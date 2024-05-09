@@ -29,11 +29,11 @@
                 <div class="container">
                     <div class="row" style="justify-content:center">
                         <div class="col-md-10 col-md-offset-3" style="margin-left: 0 !important">
-                            <div class="section-title section-title2 text-center">
+                            <div class=" section-title2 text-center">
                                 <div class="thumb-text">
-                                    <span>Volunteer/Member</span>
+                                    <span style="color:#f67d4a; font-weight:500; margin-bottom:10px">Volunteer/Member</span>
                                 </div>
-                                <h2>Become one of us</h2>
+                                <h2 style="margin-bottom:3px; font-weight:bold;">Become one of us</h2>
                                 <p class="volunteer">Join Us as a Volunteer or Member! Together, we can make a
                                     meaningful difference in the lives of orphans and widows. Whether you're lending a
                                     helping hand or becoming a part of our dedicated community, your support is

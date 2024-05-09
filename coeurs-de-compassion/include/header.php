@@ -77,7 +77,7 @@
         <div id="loading-center">
             <div id="loading-center-absolute">
                 <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
-                    <img class="loading-logo" src="assets/images/logo/enlogo.png" alt="icon">
+                    <img class="loading-logo" src="assets/images/logo/logo2.png" alt="icon">
                 </div>
             </div>
         </div>
@@ -117,7 +117,7 @@
         <div class="container">
             <div class="header__main">
                 <a href="index.php" class="logo" style="width: 13em;">
-                    <img src="assets/images/logo/logoVF.png" alt="logo" >
+                    <img src="assets/images/logo/logoo.png" alt="logo" >
                 </a>
                 <div class="main-menu">
                     <nav>
@@ -191,7 +191,7 @@
     <div id="targetElement" class="sidebar-area sidebar__hide">
         <div class="sidebar__overlay"></div>
         <a href="index.php" class="logo mb-40">
-            <img src="assets/images/logo/logoVF.png" alt="logo">
+            <img src="assets/images/logo/logoo.png" alt="logo">
         </a>
         <div class="mobile-menu overflow-hidden"></div>
         

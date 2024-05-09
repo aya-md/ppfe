@@ -29,7 +29,7 @@
                     </div>
                     <div class="col-md-6 col-sm-12 col-12 ">
                         <div class="about-content ac ">
-                            <div class="section-title wt">
+                            <div class=" wt">
                                 <h2 class="Word_of">Word of the president</h2>
                             </div>
                             <p class="wp" >As president of the hearts of mercy Association for Orphans and Widows, I'm honored to lead our efforts in supporting those in need. Together, we're committed to providing vital assistance and fostering a community of compassion and empowerment. With your support, we can make a real difference in the lives of widows and orphans.</p> 
