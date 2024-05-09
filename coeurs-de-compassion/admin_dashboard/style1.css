@@ -2,7 +2,7 @@
 
 .material-symbols-outlined{
     font-size: 30px !important;
-    color: rgba(145, 199, 20, var(--text-opacity));;
+    color: #b71540;
 
 }
 .footer__copytext {
@@ -14,11 +14,11 @@
     color: var(--white);
   }
    .bod{
-    background-color: antiquewhite !important;
+    background-color: #e67e22 !important;
     
    }
 html{
-  background-color: antiquewhite !important;
+  background-color: #e67e22 !important;
 }
 
 .bx bx-low-vision{
