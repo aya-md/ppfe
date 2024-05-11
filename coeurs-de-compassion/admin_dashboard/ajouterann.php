@@ -81,7 +81,8 @@
             <!-- END: Content -->
         </div>
         <div class="ajouter">
-            <button class="button w-35 mr-1 mt-2 bg-orange-300 text-white">Ajouter Une Annonce</button>
+        <input class="button w-35 mr-1 mt-2 bg-orange-300 text-white" type="button" onclick="location.href='annonce.php';" value="Ajouter Une Annonce"/>
+            
         
         </div>
         <?php include 'include/footer.php' ?>

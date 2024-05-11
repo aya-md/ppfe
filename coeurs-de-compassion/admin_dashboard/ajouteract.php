@@ -87,7 +87,7 @@
             <!-- END: Content -->
      
         <div class="ajouter">
-            <button class="button w-35 mr-1 mt-2 bg-orange-300 text-white">Ajouter Une Activite</button>
+        <input class="button w-35 mr-1 mt-2 bg-orange-300 text-white" type="button" onclick="location.href='activites.php';" value="Ajouter Une Activite"/>
         
         </div>
 </div>

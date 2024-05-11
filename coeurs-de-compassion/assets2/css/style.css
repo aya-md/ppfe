@@ -7492,6 +7492,7 @@ breadcumb-style
     margin-left: 60px;
     width: 320px;
     padding-bottom: 5px;
+    margin-bottom: 20px;
 }
 @media (max-width:507px){
 .Word_of{
@@ -7529,6 +7530,7 @@ breadcumb-style
     margin-left: 2rem !important; 
     font-weight: 500;
     margin-bottom: 60px;
+    margin-top: 20px;
 }
 @media (max-width:1226px){
     .auparagraph{
@@ -7565,7 +7567,7 @@ breadcumb-style
 
 
 .au{
-    width: 40vw;
+    width: 18vw;
     font-size: 36px;
     font-weight: 700;
     color: #000000;
@@ -7573,10 +7575,17 @@ breadcumb-style
     margin-bottom: 10px;
     position: relative;
     display: inline-block;
-    
-    
-
+    border-bottom:4px solid #f67d4a ;
 }
+
+@media(max-width:507px){
+    .au{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: -10px;
+    }
+}
+
 @media (max-width:768px){
     .or{
         width: 80vw !important;
@@ -7643,6 +7652,7 @@ font-weight: 600;
     align-items: center;
     
 }
+
 @media (max-width:768px){
 .org{
     min-height: 180vh;
@@ -7677,7 +7687,6 @@ font-weight: 600;
     padding-bottom: 10px;
    }
 }
-
    
 
 

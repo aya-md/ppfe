@@ -1,16 +1,5 @@
 /*-----------------------------------------------------------------
 
-Template Name:  Sadaka - Non Profit Charity HTML Template
-Author:  Gramentheme
-Author URI: https://themeforest.net/user/gramentheme/portfolio
-Developer: Kawser Ahmed Roni
-Version: 1.0.0
-Description: Sadaka - Non Profit Charity HTML Template
-
--------------------------------------------------------------------
-CSS TABLE OF CONTENTS
--------------------------------------------------------------------
-
 01. preloader
 02. header
 03. swiper slider
@@ -35,7 +24,7 @@ CSS TABLE OF CONTENTS
 	// Preloader area start here ***
 	var windowOn = $(window);
 	windowOn.on("load", function () {
-		$("#loading").fadeOut(1500);
+		$("#loading").fadeOut(1000);
 	});
 	// Preloader area end here ***
 

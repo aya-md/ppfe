@@ -147,7 +147,7 @@
         </div>
         <!-- END: Delete Confirmation Modal -->
 <div class="ajouter">
-    <button class="button w-35 mr-1 mt-3 bg-orange-300 text-white"><a href="ajouteproj.html">Ajouter Un projet</a></button>
+    <input class="button w-35 mr-1 mt-3 bg-orange-300 text-white" type="button" onclick="location.href='ajouteproj.php';" value="Ajouter Un projet"/>
 
 </div>
 

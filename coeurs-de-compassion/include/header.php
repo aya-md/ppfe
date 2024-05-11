@@ -115,7 +115,7 @@
         <div class="container">
             <div class="header__main">
                 <a href="index.php" class="logo" style="width: 13em;">
-                    <img src="assets/images/logo/logoo.png" alt="logo" >
+                    <img src="assets/images/logo/logoo.png" alt="logo" class="lg" >
                 </a>
                 <div class="main-menu">
                     <nav>

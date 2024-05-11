@@ -78,7 +78,7 @@
             <!-- END: Content -->
      
         <div class="ajouter">
-            <button class="button w-35 mr-1 mt-2 bg-orange-300 text-white" href="">Ajouter Un Projet</button>
+        <input class="button w-35 mr-1 mt-2 bg-orange-300 text-white" type="button" onclick="location.href='projects.php';" value="Ajouter Un projet"/>
         
         </div>
 

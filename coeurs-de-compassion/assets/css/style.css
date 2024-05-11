@@ -3582,7 +3582,7 @@ input {
   left: 0;
   bottom: -10px;
   height: 2px;
-  width: 40px;
+  width: 80px;
   background-color: var(--primary-color);
 }
 .blog-single__right-item .item .serach-bar, .event-single__right-item .item .serach-bar {

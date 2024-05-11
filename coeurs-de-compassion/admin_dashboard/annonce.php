@@ -153,7 +153,7 @@
         </div>
         <!-- END: Delete Confirmation Modal -->
 <div class="ajouter">
-    <button class="button w-35 mr-1 mt-3 button  bg-orange-300  text-white"><a href="ajouterann.html">Ajouter Une Annonce</a></button>
+    <input class="button w-35 mr-1 mt-3 button  bg-orange-300  text-white" type="button" onclick="location.href='ajouterann.php';" value="Ajouter Une Annonce"/>
 
 </div>
 <?php include 'include/footer.php' ?>

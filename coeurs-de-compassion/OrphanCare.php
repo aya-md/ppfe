@@ -265,6 +265,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <input type="button" name="previous" class="previous action-button" value="Previous" />
                                         </fieldset>
                                     </form>
                                 </div>

@@ -81,8 +81,8 @@
             <!-- BEGIN: Side Menu -->
              <!-- BEGIN: Side Menu -->
              <nav class="side-nav">
-                <a href="" class="intro-x flex items-center pl-5 pt-4">
-                    <img  src="/coeurs-de-compassion/assets/images/logo/LogoXL.png"  width="250px">
+                <a href="index.php" class="intro-x flex items-center pl-5 pt-4">
+                    <img  src="dist/images/Logo2.png"  width="180px">
                     
                 </a>
                 <div class="side-nav__devider my-6"></div>
@@ -97,7 +97,7 @@
                     </li>
                    
                     <li>
-                        <a href="Ajouterdon.php" class="side-menu">
+                        <a href="donation.php" class="side-menu">
                             <div class="side-menu__icon"> <span class="material-symbols-outlined">
                                 volunteer_activism
                                 </span> </div>
@@ -149,7 +149,7 @@
                         
                     <li class="side-nav__devider my-6"></li>
                     <li>
-                        <a href="javascript:;" class="side-menu">
+                        <a href="login-login.php" class="side-menu">
                             <div class="side-menu__icon"> <span class="material-symbols-outlined">
                                 mode_off_on
                                 </span> </div>

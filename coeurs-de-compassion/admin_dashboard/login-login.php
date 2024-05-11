@@ -51,8 +51,8 @@ License: You must have a valid license purchased only from themeforest(the above
                             
                             
                         </div>
-                        <div class="intro-x mt-5 xl:mt-8 text-center xl:text-left">
-                            <button class="button button--lg w-full xl:w-32 text-white bg-theme-1 xl:mr-3">Login</button>
+                        <div class="intro-x mt-5 xl:mt-8 text-center xl:text-center">
+                           <a href="index.php"><button class="button button--lg w-full xl:w-32 text-white bg-theme-1 xl:mr-3">Login</button></a>
                             
                         </div>
                         

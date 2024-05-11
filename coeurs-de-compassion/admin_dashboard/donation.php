@@ -155,7 +155,7 @@
         </div>
         <!-- END: Delete Confirmation Modal -->
 <div class="ajouter">
-    <a href="Ajouterdon.html" ><button  class="button w-24 mr-1 mb-2 bg-theme-9 text-white">Ajouter un don</button></a>
+    <a href="Ajouterdon.php" ><button  class="button w-24 mr-1 mb-2 bg-theme-9 text-white">Ajouter un don</button></a>
 
 </div>
 

@@ -150,7 +150,8 @@
         </div>
         <!-- END: Delete Confirmation Modal -->
 <div class="ajouter">
-    <button class="button w-35 mr-1 mt-3 button  bg-orange-300  text-white"><a href="ajouteract.html">Ajouter Une Activites</a></button>
+    
+    <button class="button w-35 mr-1 mt-3 button  bg-orange-300  text-white"><a href="ajouteract.php">Ajouter Une Activites</a></button>
 
 </div>
 </div>

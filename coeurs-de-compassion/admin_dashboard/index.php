@@ -14,7 +14,7 @@
                     
                     <!-- END: Notifications -->
                     <!-- BEGIN: Account Menu -->
-                    <div class="intro-x dropdown w-8 h-8 relative">
+                    <!--<div class="intro-x dropdown w-8 h-8 relative">
                         <div class="dropdown-toggle w-8 h-8 rounded-full overflow-hidden shadow-lg image-fit zoom-in">
                             <img alt="Midone Tailwind HTML Admin Template" src="dist/images/profile-12.jpg">
                         </div>
@@ -35,7 +35,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                     <!-- END: Account Menu -->
                 </div>
                 <!-- END: Top Bar -->
@@ -74,9 +74,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-span-12 sm:col-span-6 xl:col-span-3 intro-y">
+                                <div class="col-span-12 sm:col-span-6 xl:col-span-3 intro-y" style="height: 200px !important;">
                                     <div class="report-box zoom-in">
-                                        <div class="box p-5">
+                                        <div class="box p-5 " style="height:180px;">
                                             <div class="flex">
                                                 <i class='bx bx-donate-heart material-symbols-outlined'></i>
                                                 
@@ -158,22 +158,10 @@
                                 <div class="intro-x">
                                     <div class="box px-5 py-3 mb-3 flex items-center zoom-in">
                                         <div class="w-10 h-10 flex-none image-fit rounded-full overflow-hidden">
-                                            <img alt="Midone Tailwind HTML Admin Template" src="dist/images/profile-14.jpg">
-                                        </div>
-                                        <div class="ml-4 mr-auto">
-                                            <div class="font-medium">Leonardo DiCaprio</div>
-                                            <div class="text-gray-600 text-xs">6 August 2022</div>
-                                        </div>
-                                        <div class="text-theme-9">+$23</div>
-                                    </div>
-                                </div>
-                                <div class="intro-x">
-                                    <div class="box px-5 py-3 mb-3 flex items-center zoom-in">
-                                        <div class="w-10 h-10 flex-none image-fit rounded-full overflow-hidden">
                                             <img alt="Midone Tailwind HTML Admin Template" src="dist/images/profile-10.jpg">
                                         </div>
                                         <div class="ml-4 mr-auto">
-                                            <div class="font-medium">Tom Cruise</div>
+                                            <div class="font-medium">walid</div>
                                             <div class="text-gray-600 text-xs">21 July 2020</div>
                                         </div>
                                         <div class="text-theme-9">+$83</div>
@@ -185,7 +173,7 @@
                                             <img alt="Midone Tailwind HTML Admin Template" src="dist/images/profile-12.jpg">
                                         </div>
                                         <div class="ml-4 mr-auto">
-                                            <div class="font-medium">Al Pacino</div>
+                                            <div class="font-medium">najlaa</div>
                                             <div class="text-gray-600 text-xs">5 January 2021</div>
                                         </div>
                                         <div class="text-theme-9">+$199</div>
@@ -197,7 +185,7 @@
                                             <img alt="Midone Tailwind HTML Admin Template" src="dist/images/profile-6.jpg">
                                         </div>
                                         <div class="ml-4 mr-auto">
-                                            <div class="font-medium">Russell Crowe</div>
+                                            <div class="font-medium">imane</div>
                                             <div class="text-gray-600 text-xs">22 April 2020</div>
                                         </div>
                                         <div class="text-theme-9">+$43</div>
@@ -206,23 +194,23 @@
                                 <div class="intro-x">
                                     <div class="box px-5 py-3 mb-3 flex items-center zoom-in">
                                         <div class="w-10 h-10 flex-none image-fit rounded-full overflow-hidden">
-                                            <img alt="Midone Tailwind HTML Admin Template" src="dist/images/profile-15.jpg">
+                                            <img alt="Midone Tailwind HTML Admin Template" src="dist/images/profile-6.jpg">
                                         </div>
                                         <div class="ml-4 mr-auto">
-                                            <div class="font-medium">Al Pacino</div>
-                                            <div class="text-gray-600 text-xs">8 October 2022</div>
+                                            <div class="font-medium">aya</div>
+                                            <div class="text-gray-600 text-xs">22 April 2020</div>
                                         </div>
-                                        <div class="text-theme-9">+$112</div>
+                                        <div class="text-theme-9">+$43</div>
                                     </div>
                                 </div>
-                                <a href="" class="intro-x w-full block text-center rounded-md py-3 border border-dotted border-theme-15 text-theme-16">View More</a> 
+                                <a href="donation.php" class="intro-x w-full block text-center rounded-md py-3 border border-dotted border-theme-15 text-theme-16">View More</a> 
                             </div>
                         </div>
                         <!-- END: Sales Report -->
                         <!-- BEGIN: Official Store -->
                         <div class="col-span-12 xl:col-span-8 mt-6">
-                            <div class="intro-y block sm:flex items-center h-10">
-                                <h2 class="text-lg font-medium truncate mr-5">
+                            <div class="intro-y block sm:flex items-center h-10" >
+                                <h2 class="text-lg font-medium truncate mr-5" >
                                     Graphique de nombre des activités par an
                                 </h2>
                                 

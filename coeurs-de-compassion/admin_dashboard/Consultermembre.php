@@ -50,9 +50,10 @@
             <textarea id="w3review" name="w3review" rows="4" cols="50">
            
             </textarea>
+            <input class="button w-44 mr-1 mb-2 bg-theme-9 text-white btnm " type="button" onclick="location.href='Membre.php';" value="retour"/>
             </form>
 
 
-            <button class="button w-44 mr-1 mb-2 bg-theme-9 text-white btnm "> Retour </button>
+            
 
         <?php include 'include/footer.php' ?>
