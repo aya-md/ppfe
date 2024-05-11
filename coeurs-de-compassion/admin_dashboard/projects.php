@@ -1,38 +1,6 @@
-<!DOCTYPE html>
-<!--
-Template Name: Midone - HTML Admin Dashboard Template
-Author: Left4code
-Website: http://www.left4code.com/
-Contact: muhammadrizki@left4code.com
-Purchase: https://themeforest.net/user/left4code/portfolio
-Renew Support: https://themeforest.net/user/left4code/portfolio
-License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
--->
-<html lang="en">
-    <!-- BEGIN: Head -->
-    <head>
-        <meta charset="utf-8">
-        <link href="dist/images/logo.svg" rel="shortcut icon">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Midone admin is super flexible, powerful, clean & modern responsive tailwind admin template with unlimited possibilities.">
-        <meta name="keywords" content="admin template, Midone admin template, dashboard template, flat admin template, responsive admin template, web app">
-        <meta name="author" content="LEFT4CODE">
-        <title>Activities</title>
-        <!-- BEGIN: CSS Assets-->
-        <link rel="stylesheet" href="dist/css/app.css" />
-        <link rel="stylesheet" href="style.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <!-- END: CSS Assets-->
-    </head>
-    <!-- END: Head -->
-
-    
-    <body class="app bod">
+<?php include 'include/header.php' ?>
         <h2 class="intro-y text-lg font-medium mt-10">
-            <span class="material-symbols-outlined">
-                campaign
-                </span> Annonce
+            <i class='bx bx-donate-heart'></i> Projets
         </h2>
         <div class="grid grid-cols-12 gap-6 mt-5 ">
             <div class="w-56 relative text-gray-700">
@@ -41,15 +9,14 @@ License: You must have a valid license purchased only from themeforest(the above
             </div>
         </div>
         
-        
                      <!-- BEGIN: Data List -->
                      <div class="intro-y col-span-12 overflow-auto lg:overflow-visible">
                         <table class="table table-report -mt-2">
                             <thead>
                                 <tr>
-                                    <th class="whitespace-no-wrap">ID Annonce</th>
+                                    <th class="whitespace-no-wrap">ID progets</th>
                                     <th class="whitespace-no-wrap">Titre</th>
-                                    <th class="text-center whitespace-no-wrap">Etat</th>
+                                    
                                     <th class="text-center whitespace-no-wrap">Date</th>
                                    
                                     <th class="text-center whitespace-no-wrap">ACTIONS</th>
@@ -64,7 +31,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     
                                     <td >titre1</td>
                                     
-                                    <td class="text-center">####</td>
+                                    
                                     <td class="text-center"> <input class="datepicker input w-56 border block mx-auto"> </td>
                                     
                                     <td class="table-report__action w-56">
@@ -82,8 +49,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                 </td>
                                 
                                 <td >Titre2</td>
-                                
-                                <td class="text-center">####</td>
+                              
                                 <td class="text-center"> <input class="datepicker input w-56 border block mx-auto"> </td>
                                 
                                 <td class="table-report__action w-56">
@@ -101,7 +67,6 @@ License: You must have a valid license purchased only from themeforest(the above
                             
                             <td >titre3</td>
                             
-                            <td class="text-center">####</td>
                             <td class="text-center"> <input class="datepicker input w-56 border block mx-auto"> </td>
                             
                             <td class="table-report__action w-56">
@@ -118,8 +83,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         </td>
                         
                         <td >titre4</td>
-                        
-                        <td class="text-center">####</td>
+                      
                         <td class="text-center"> <input class="datepicker input w-56 border block mx-auto"> </td>
                         
                         <td class="table-report__action w-56">
@@ -183,7 +147,7 @@ License: You must have a valid license purchased only from themeforest(the above
         </div>
         <!-- END: Delete Confirmation Modal -->
 <div class="ajouter">
-    <button class="button w-35 mr-1 mt-3 button  bg-orange-300  text-white"><a href="ajouterann.html">Ajouter Une Annonce</a></button>
+    <button class="button w-35 mr-1 mt-3 bg-orange-300 text-white"><a href="ajouteproj.html">Ajouter Un projet</a></button>
 
 </div>
 
@@ -193,3 +157,4 @@ License: You must have a valid license purchased only from themeforest(the above
      <script src="dist/js/app.js"></script>
      <!-- END: JS Assets-->    
     </body>
+    

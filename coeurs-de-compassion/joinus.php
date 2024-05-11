@@ -3,10 +3,6 @@
 <body class="bd">
     <!-- start page-wrapper -->
     <div class="page-wrapper">
-    
-
-
-
         <div class="tp-breadcumb-area">
             <div class="container">
                 <div class="row">
@@ -42,14 +38,9 @@
                         </div>
                     </div>
                     <div class="row" >
-
                         <div class="wrapper" >
-                          
-
                                 <div class="steps clearfix">
                                     <ul class="tablist multisteps-form__progress">
-
-
                                     </ul>
                                 </div>
                         

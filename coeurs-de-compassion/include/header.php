@@ -70,8 +70,6 @@
 </head>
 
 <body>
-    
-
     <!-- Preloader area start -->
     <div id="loading">
         <div id="loading-center">
