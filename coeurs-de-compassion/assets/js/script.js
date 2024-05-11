@@ -462,3 +462,15 @@ $(function(){
 		return showPage(currentPage - 1);
 	});
 });
+
+$( document ).ready(function() {
+	/***************** Equal (min-height) for textes,titles, exc in inline blocs **************/
+	var max_heightTxt =(classes)=>{
+		var max_height_txt = $(classes).map(function (){return $(this).height();}).get();
+		minHeightTxt = Math.max.apply(null, max_height_txt);
+		$( classes ).css( "min-height",minHeightTxt );
+	}
+	
+	//dupliquer le code suivant ou cas de besoin d'autres element de méme hauteur !
+	max_heightTxt('.col_mission ul');
+});

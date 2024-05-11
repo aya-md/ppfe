@@ -131,7 +131,7 @@
                                         <a href="who_we_are.php">Who we are</a>
                                     </li>
                                     <li>
-                                        <a href="#">Our mission & vision</a>
+                                        <a href="OurMission&Vission.php">Our mission & vision</a>
                                     </li>
                                      
                                 </ul>
