@@ -27,7 +27,7 @@
                                 <div class="btn-one mt-50" data-animation="fadeInUp" data-delay="1s">
                                     <span class="btn-circle">
                                     </span>
-                                    <a href="donate.html" class="btn-inner">
+                                    <a href="donate.php" class="btn-inner">
                                         <span class="btn-text">
                                             DONATE NOW
                                         </span>
@@ -236,22 +236,22 @@
                         </div>
                         <div class="donate__amount mt-40 wow fadeInDown" data-wow-delay="200ms"
                             data-wow-duration="1500ms">
-                            <button class="active amount-btn">10MAD</button>
-                            <button class="amount-btn">30MAD</button>
-                            <button class="amount-btn">50MAD</button>
-                            <button class="amount-btn">100MAD</button>
-                            <button class="amount-btn">200MAD</button>
+                            <button class="active amount-btn">10</button>
+                            <button class="amount-btn">30</button>
+                            <button class="amount-btn">50</button>
+                            <button class="amount-btn">100</button>
+                            <button class="amount-btn">200</button>
                         </div>
                         <div class="donate__now mt-30 wow fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
-                            <input type="text" class="addAmount-value" placeholder=" Costume Amount">
+                            <input type="text" class="addAmount-value" id="inputValue" placeholder=" Costume Amount">
                             <div class="btn-one">
                                 <span class="btn-circle">
                                 </span>
-                                <a href="#" class="btn-inner">
+                                <button class="btn-inner"  onclick="saveInputValue()">
                                     <span class="btn-text">
                                         DONATE NOW
                                     </span>
-                                </a>
+</button>
                             </div>
                         </div>
                     </div>
@@ -870,6 +870,18 @@
         </div>
     </section>
     <!-- partners area end here -->
+    <script>
+function saveInputValue() {
+  // Retrieve input value
+  var inputValue = document.getElementById("inputValue").value;
+  
+  // Save input value to local storage
+  localStorage.setItem("inputValue", inputValue);
+
+  // Redirect to another page
+  window.location.href = "donate.php";
+}
+</script>
 <?php 
 include 'include/footer.php';
 ?>

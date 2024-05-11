@@ -62,22 +62,7 @@
                 <link href="assets2/css/nice-select.css" rel="stylesheet">
                 <link href="assets2/css/style.css" rel="stylesheet">';}
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+     
 
 
 ?>
@@ -85,8 +70,6 @@
 </head>
 
 <body>
-    
-
     <!-- Preloader area start -->
     <div id="loading">
         <div id="loading-center">
@@ -206,7 +189,7 @@
     <div id="targetElement" class="sidebar-area sidebar__hide">
         <div class="sidebar__overlay"></div>
         <a href="index.php" class="logo mb-40">
-            <img src="assets/images/logo/logoVF.png" alt="logo">
+            <img src="assets/images/logo/logoo.png" alt="logo">
         </a>
         <div class="mobile-menu overflow-hidden"></div>
         

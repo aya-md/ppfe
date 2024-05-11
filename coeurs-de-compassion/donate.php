@@ -99,5 +99,11 @@
             </div>
         </div>
     </div>
+    <script>
+
+var inputValue = localStorage.getItem("inputValue");
+
+document.getElementById("don").value = inputValue;
+</script>
     <?php include 'include/footer.php';?>
     
