@@ -30,7 +30,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 <!-- BEGIN: Login Info -->
                 <div class="logo3 hidden xl:flex flex-col min-h-screen">
                     <a href="" class="-intro-x flex items-center pt-5">
-                        <img   src="dist/images/enlogo.png"  width="800px" style="margin-left :-12%;">
+                        <img   src="dist/images/logo2.png"  width="800px" style="margin-left :-20%; margin-top: 200px;">
                          
                     </a>
                    
@@ -51,8 +51,8 @@ License: You must have a valid license purchased only from themeforest(the above
                             
                             
                         </div>
-                        <div class="intro-x mt-5 xl:mt-8 text-center xl:text-left">
-                            <button class="button button--lg w-full xl:w-32 text-white bg-theme-1 xl:mr-3">Login</button>
+                        <div class="intro-x mt-5 xl:mt-8 text-center xl:text-center">
+                           <a href="index.php"><button class="button button--lg w-full xl:w-32 text-white bg-theme-1 xl:mr-3">Login</button></a>
                             
                         </div>
                         

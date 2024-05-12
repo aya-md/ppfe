@@ -115,6 +115,7 @@
 
                                                 
                                             </div> <input type="button" name="next" class="next action-button" value="Next" />
+                                            <input type="button" name="previous" class="previous action-button" value="Previous" />
                                         </fieldset>
                                         <fieldset>
                                             <div class="form-card">
@@ -154,6 +155,7 @@
                                                             <b>None</b> 
                                                     </div>
                                             </div> <input type="button" name="next" class="next action-button" value="Next" />
+                                            <input type="button" name="previous" class="previous action-button" value="Previous" />
                                         </fieldset>
                                         <fieldset>
                                             <div class="form-card">
@@ -212,6 +214,7 @@
                                                     <label class="fieldlabels">What is the average monthly bill for water at your place? *</label>
                                                 <input type="text" name="uname" placeholder="value" />
                                             </div> <input type="button" name="next" class="next action-button" value="Next" />
+                                            <input type="button" name="previous" class="previous action-button" value="Previous" />
                                         </fieldset>
                                         <fieldset>
                                             <div class="form-card">
@@ -238,9 +241,9 @@
                                                         <option>Yearly</option>
                                                     </select>
                                                 </div>
-                                                
-
+                                            
                                             </div> <input type="button" name="next" class="next action-button" value="Next" />
+                                            <input type="button" name="previous" class="previous action-button" value="Previous" />
                                         </fieldset>
                                         <fieldset>
                                             <div class="form-card">
@@ -262,14 +265,13 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <input type="button" name="previous" class="previous action-button" value="Previous" />
                                         </fieldset>
                                     </form>
                                 </div>
                             </div>
                         </div>
                     </div>
-               
-
             </div>
         </div>
     </div>

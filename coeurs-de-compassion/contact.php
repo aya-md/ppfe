@@ -29,7 +29,7 @@
                             <h2>Our Contacts</h2>
                         </div>
                         <div class="contact-details">
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. </p>
+                            <p>We're here to help! Whether you have questions about our services, want to get involved, or simply want to learn more about how you can support widows and orphans in need, we'd love to hear from you. Feel free to reach out to us.</p>
                             <ul>
                                 <li>
                                     <div class="icon">

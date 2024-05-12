@@ -3,10 +3,6 @@
 <body class="bd">
     <!-- start page-wrapper -->
     <div class="page-wrapper">
-    
-
-
-
         <div class="tp-breadcumb-area">
             <div class="container">
                 <div class="row">
@@ -29,11 +25,11 @@
                 <div class="container">
                     <div class="row" style="justify-content:center">
                         <div class="col-md-10 col-md-offset-3" style="margin-left: 0 !important">
-                            <div class="section-title section-title2 text-center">
+                            <div class=" section-title2 text-center">
                                 <div class="thumb-text">
-                                    <span>Volunteer/Member</span>
+                                    <span style="color:#f67d4a; font-weight:500; margin-bottom:10px">Volunteer/Member</span>
                                 </div>
-                                <h2>Become one of us</h2>
+                                <h2 style="margin-bottom:3px; font-weight:bold;">Become one of us</h2>
                                 <p class="volunteer">Join Us as a Volunteer or Member! Together, we can make a
                                     meaningful difference in the lives of orphans and widows. Whether you're lending a
                                     helping hand or becoming a part of our dedicated community, your support is
@@ -42,18 +38,13 @@
                         </div>
                     </div>
                     <div class="row" >
-
                         <div class="wrapper" >
-                          
-
                                 <div class="steps clearfix">
                                     <ul class="tablist multisteps-form__progress">
-
-
                                     </ul>
                                 </div>
                         
-                            <form class="multisteps-form__form" action="#" id="wizard" method="POST">
+                            <form class="multisteps-form__form" action="/coeurs-de-compassion/" id="wizard" method="POST">
                                 <div class="form-area position-relative">
                                     <!-- div 1 -->
                                     <div class="multisteps-form__panel js-active" data-animation="slideHorz">
@@ -85,8 +76,8 @@
                                                                         </span>
                                                                         <span class="service-check-option">
                                                                             <span><input type="radio"
-                                                                                    name="service_name"
-                                                                                    value="Corporate Services"
+                                                                                    name="Status"
+                                                                                    value="Volenteer"
                                                                                     checked></span>
                                                                         </span>
                                                                     </label>
@@ -104,8 +95,8 @@
                                                                         </span>
                                                                         <span class="service-check-option">
                                                                             <span><input type="radio"
-                                                                                    name="service_name"
-                                                                                    value="Development Services"></span>
+                                                                                    name="Status"
+                                                                                    value="Member"></span>
                                                                         </span>
                                                                     </label>
                                                                 </div>
@@ -145,7 +136,7 @@
 
                                                         <h2>Personal information</h2>
                                                         <div class="form-inner-area">
-                                                            <input type="text" name="first_name" class="form-control "
+                                                            <input type="text" name="FullName" class="form-control "
                                                                 minlength="2" placeholder="Full name *" required>
                                                             
                                                                 <input type="text" name="CIN" class="form-control "
@@ -153,27 +144,27 @@
 
                                                             <div class="step-content-field">
                                                                 <div class="date-picker date datepicker">
-                                                                    <input type="text" name="date" class="form-control"
+                                                                    <input type="text" name="Date" class="form-control"
                                                                         placeholder="Enter you birth date">
                                                                     <div class="input-group-append"><span>ADD
                                                                             TIME</span></div>
                                                                 </div>
                                                             </div>
-                                                            <input type="text" name="birth-place" class="form-control "
-                                                                minlength="2" placeholder="Birth place">
-                                                            <input type="email" name="email" class="form-control"
+                                                            <input type="text" name="BirthPlace" class="form-control "
+                                                                minlength="2" placeholder="BirthPlace">
+                                                            <input type="Email" name="Email" class="form-control"
                                                                 placeholder="Email Address *">
-                                                            <input type="text" name="phone" placeholder="Phone">
+                                                            <input type="text" name="Phone" placeholder="Phone">
                                                         </div>
 
                                                         <div class="gender-selection">
                                                             <h3>Gender:</h3>
                                                             <label>
-                                                                <input type="radio" name="gender" value="Male">
+                                                                <input type="radio" name="Gender" value="Male">
                                                                 <span class="checkmark"></span>Male
                                                             </label>
                                                             <label>
-                                                                <input type="radio" name="gender" value="Female">
+                                                                <input type="radio" name="Gender" value="Female">
                                                                 <span class="checkmark"></span>Female
                                                             </label>
                                                         </div>
@@ -286,14 +277,8 @@
                                             </div>
                                         </div>
                                     </div>
-
-
-
-
                                 </div>
-
                         </div>
-
                         </form>
                     </div>
                 </div>
@@ -301,8 +286,6 @@
             </div>
         </div>
     </div>
-
     <!-- volunteer-area-end -->
 
     <?php include 'include/footer.php';?>
-   

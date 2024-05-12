@@ -4042,7 +4042,7 @@ ul {
     height: 3px;
     background: #f67d4a;
     border-radius: 20px;
-    transform: translateX(-70%) !important;
+    transform: translateX(-70%) ;
 }
 @media (max-width:507px){
     .section-title-1 h2:before {
@@ -7488,6 +7488,22 @@ breadcumb-style
 }
 .Word_of{
     color: black;
+    border-bottom:4px solid  #f67d4a;
+    margin-left: 60px;
+    width: 320px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+@media (max-width:507px){
+.Word_of{
+    color: black;
+    border-bottom:4px solid  #f67d4a;
+    margin-left:-7px;
+    width: 350px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
 }
 @media (max-width:850px){
     .wt{
@@ -7514,6 +7530,7 @@ breadcumb-style
     margin-left: 2rem !important; 
     font-weight: 500;
     margin-bottom: 60px;
+    margin-top: 20px;
 }
 @media (max-width:1226px){
     .auparagraph{
@@ -7550,8 +7567,7 @@ breadcumb-style
 
 
 .au{
-    width: 40vw;
-   
+    width: 18vw;
     font-size: 36px;
     font-weight: 700;
     color: #000000;
@@ -7559,13 +7575,23 @@ breadcumb-style
     margin-bottom: 10px;
     position: relative;
     display: inline-block;
-    
-    
-
+    border-bottom:4px solid #f67d4a ;
 }
+
+@media(max-width:507px){
+    .au{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: -10px;
+    }
+}
+
 @media (max-width:768px){
     .or{
         width: 80vw !important;
+        font-size: 20px !important;
+        font-weight: bold;
+        padding-bottom: 15px !important;
     }
 }
 .or{
@@ -7626,6 +7652,7 @@ font-weight: 600;
     align-items: center;
     
 }
+
 @media (max-width:768px){
 .org{
     min-height: 180vh;
@@ -7660,6 +7687,10 @@ font-weight: 600;
     padding-bottom: 10px;
    }
 }
+   
+
+
+
 
 
 /*----------------------------------------------

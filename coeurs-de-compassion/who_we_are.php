@@ -29,7 +29,7 @@
                     </div>
                     <div class="col-md-6 col-sm-12 col-12 ">
                         <div class="about-content ac ">
-                            <div class="section-title wt">
+                            <div class=" wt">
                                 <h2 class="Word_of">Word of the president</h2>
                             </div>
                             <p class="wp" >As president of the hearts of mercy Association for Orphans and Widows, I'm honored to lead our efforts in supporting those in need. Together, we're committed to providing vital assistance and fostering a community of compassion and empowerment. With your support, we can make a real difference in the lives of widows and orphans.</p> 
@@ -54,13 +54,13 @@
                 <div class="row "style="width:100%;">
                     <div class="col-md-6 col-sm-12 col-12"style="width:100%;">
                         <div class="about-content"style="width:100%;">
-                            <div class="section-title-1" style="margin-left: 40px;">
-                                <h2 class="au" >About us</h2>
+                            <div  style="margin-left: 40px;">
+                                <h2 class="au">About us</h2>
                             </div>
                             <div class="auc" style="width:100%; display: flex; justify-content: space-around;">
                                 
                                 
-                            <p class="auparagraph">The Hearts of Mercy Association for Orphans and Widows was established in September 2013 by a group of young people in the city of Ouarzazate who set their sights on assisting widows and orphans. The association was launched with a specific vision to become a leading model and reference for widows and orphans in need of all forms of support, as well as for supporting donors and volunteers interested in charitable work. The mission of the association is to extend a helping hand to assist widows and orphans in various aspects of life. Through a range of programs and initiatives, the association aims to provide emotional, financial, and social support to those who have lost loved ones, helping them navigate through the challenges they face and rebuild their lives with dignity and resilience. By fostering a culture of compassion and solidarity within the community, the association seeks to create a network of support that uplifts and empowers widows and orphans, enabling them to thrive and contribute positively to society.</p>
+                            <p class="auparagraph" >The Hearts of Mercy Association for Orphans and Widows was established in September 2013 by a group of young people in the city of Ouarzazate who set their sights on assisting widows and orphans. The association was launched with a specific vision to become a leading model and reference for widows and orphans in need of all forms of support, as well as for supporting donors and volunteers interested in charitable work. The mission of the association is to extend a helping hand to assist widows and orphans in various aspects of life. Through a range of programs and initiatives, the association aims to provide emotional, financial, and social support to those who have lost loved ones, helping them navigate through the challenges they face and rebuild their lives with dignity and resilience. By fostering a culture of compassion and solidarity within the community, the association seeks to create a network of support that uplifts and empowers widows and orphans, enabling them to thrive and contribute positively to society.</p>
                             <img class="auimg"  src="assets2/images/wwa2.jpeg" alt="" style="width: 40%; height: 40%;border-radius:5%;margin-top: -3.75rem;">
                                 
                             </div> 
@@ -72,7 +72,7 @@
         
        <!-- aboout us end -->
    
-       <div class="org" style="height : 130vh; background-color: rgba(255,216,159,1);">
+       <div class="org" style="height : 110vh; background-color: rgba(255,216,159,1);">
         <h1 class="or" style="width: 30%; margin-top: 70px;">Organizational Chart</h1>
         <figure class="org-chart cf">
           <ul class="administration"style="margin-left:7rem;">
