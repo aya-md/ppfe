@@ -1,6 +1,6 @@
 <?php
-include_once 'C:\wamp64\www\ACCVO VF\ppfe\coeurs-de-compassion\Models\UI\donationModel.php';
-include_once 'C:\wamp64\www\ACCVO VF\ppfe\coeurs-de-compassion\Models\UI\donorModel.php';
+include_once 'Models/UI/donationModel.php';
+include_once 'Models/UI/donorModel.php';
 if(isset($_POST['btn-donation'])){
    
     $donvalue = $_POST['don'];

@@ -1,4 +1,5 @@
 <?php
+include_once 'Models/Config.php';
 class widow{
     private $id_widow;
     private $full_name;

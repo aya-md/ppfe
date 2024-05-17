@@ -1,6 +1,6 @@
 <?php
-include_once 'C:\wamp64\www\ACCVO VF\ppfe\coeurs-de-compassion\Models\Config.php';
-include_once 'C:\wamp64\www\ACCVO VF\ppfe\coeurs-de-compassion\Models\UI\donorModel.php';
+include_once 'Models/Config.php';
+include_once 'Models/UI/donorModel.php';
 class donation{
     private $idDon;
     private $date;

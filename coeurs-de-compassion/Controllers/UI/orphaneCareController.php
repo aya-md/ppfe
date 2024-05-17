@@ -1,10 +1,10 @@
 <?php
-include_once 'C:\wamp64\www\ACCVO VF\ppfe\coeurs-de-compassion\Models\UI\accomodationModel.php';
-include_once 'C:\wamp64\www\ACCVO VF\ppfe\coeurs-de-compassion\Models\UI\aideModel.php';
-include_once 'C:\wamp64\www\ACCVO VF\ppfe\coeurs-de-compassion\Models\UI\fatherModel.php';
-include_once 'C:\wamp64\www\ACCVO VF\ppfe\coeurs-de-compassion\Models\UI\kafilModel.php';
-include_once 'C:\wamp64\www\ACCVO VF\ppfe\coeurs-de-compassion\Models\UI\OrphaneModel.php';
-include_once 'C:\wamp64\www\ACCVO VF\ppfe\coeurs-de-compassion\Models\UI\widowModel.php';
+include_once 'Models/UI/accomodationModel.php';
+include_once 'Models/UI/aideModel.php';
+include_once 'Models/UI/fatherModel.php';
+include_once 'Models/UI/kafilModel.php';
+include_once 'Models/UI/OrphaneModel.php';
+include_once 'Models/UI/widowModel.php';
 
 
 if(isset($_POST['orphan-btn-submit']) or isset($_POST['widow-btn-submit'])){
