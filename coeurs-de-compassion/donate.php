@@ -1,10 +1,8 @@
 <?php 
 include 'include/header.php';
-include 'C:\wamp64\www\ACCVO VF\ppfe\coeurs-de-compassion\Controllers\UI\donationController.php';
+include 'C:\xampp\htdocs\nnn\ppfe\coeurs-de-compassion\Controllers\UI\donationController.php';
 
 ?>
-
-
     <!-- start page-wrapper -->
     <div class="page-wrapper">
         <!-- .tp-breadcumb-area start -->
