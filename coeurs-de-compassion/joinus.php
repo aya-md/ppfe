@@ -44,7 +44,7 @@
                                     </ul>
                                 </div>
                         
-                            <form class="multisteps-form__form" action="/coeurs-de-compassion/" id="wizard" method="POST">
+                            <form class="multisteps-form__form" action="Controllers/UI/joinusController.php" id="wizard" method="POST">
                                 <div class="form-area position-relative">
                                     <!-- div 1 -->
                                     <div class="multisteps-form__panel js-active" data-animation="slideHorz">
@@ -77,7 +77,7 @@
                                                                         <span class="service-check-option">
                                                                             <span><input type="radio"
                                                                                     name="Status"
-                                                                                    value="Volenteer"
+                                                                                    value="Volunteer"
                                                                                     checked></span>
                                                                         </span>
                                                                     </label>
@@ -159,14 +159,11 @@
 
                                                         <div class="gender-selection">
                                                             <h3>Gender:</h3>
-                                                            <label>
-                                                                <input type="radio" name="Gender" value="Male">
-                                                                <span class="checkmark"></span>Male
-                                                            </label>
-                                                            <label>
-                                                                <input type="radio" name="Gender" value="Female">
-                                                                <span class="checkmark"></span>Female
-                                                            </label>
+                                                            <input type="radio"  name="gender" value="Male">
+                                                            <b>Male</b>
+                                                     
+                                                            <input type="radio" name="gender" value="Female">
+                                                            <b>Female</b>  
                                                         </div>
                                                         <div class="upload-documents">
                                                             <h3>Upload a photo of you</h3>
@@ -183,8 +180,8 @@
                                                                 </div>
                                                                 <div class="upload-option text-center">
                                                                     <label for="attach">Upload The picture</label>
-                                                                    <input id="attach" style="visibility:hidden;"
-                                                                        type="file">
+                                                                    <input id="attach" name="uploaded_image" style="visibility:hidden;"
+                                                                        type="file" accept="image/*">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -222,25 +219,25 @@
                                                         <div class="services-select-option">
                                                             <div class="language-select">
                                                                 <p>Please choose your academic level : </p>
-                                                                <select name="languages">
-                                                                    <option>BAC</option>
-                                                                    <option>BAC+2</option>
-                                                                    <option>BAC+3</option>
-                                                                    <option>BAC+5</option>
-                                                                    <option>BAC+8</option>
-                                                                    <option>Other</option>
+                                                                <select name="education_level">
+                                                                    <option value="BAC">BAC</option>
+                                                                    <option value="BAC+2">BAC+2</option>
+                                                                    <option value="BAC+3">BAC+3</option>
+                                                                    <option value="BAC+5">BAC+5</option>
+                                                                    <option value="BAC+8">BAC+8</option>
+                                                                    <option value="Other">Other</option>
                                                                 </select>
                                                             </div>
 
                                                             <div class="language-select">
                                                                 <p>Please choose your speciality : </p>
-                                                                <select name="languages">
-                                                                    <option>Economy</option>
-                                                                    <option>Computer sciences</option>
-                                                                    <option>Psychology</option>
-                                                                    <option>Sociology</option>
-                                                                    <option>Education</option>
-                                                                    <option>Other</option>
+                                                                <select name="speciality">
+                                                                    <option value="Economy">Economy</option>
+                                                                    <option value="Computer sciences">Computer sciences</option>
+                                                                    <option value="Psychology">Psychology</option>
+                                                                    <option value="Sociology">Sociology</option>
+                                                                    <option value="Education">Education</option>
+                                                                    <option value="Other">Other</option>
                                                                 </select>
                                                             </div>
                                                         </div>
@@ -248,19 +245,19 @@
 
                                                         <div class="comment-box">
                                                             <p><i class="fas fa-comments"></i> Centers of interest</p>
-                                                            <textarea name="full_comments"
+                                                            <textarea name="centres_of_interest"
                                                                 placeholder="Write here"></textarea>
                                                         </div>
                                                         <div class="comment-box">
                                                             <p><i class="fas fa-comments"></i> Activities to Engage in
                                                                 at the Association</p>
-                                                            <textarea name="full_comments"
+                                                            <textarea name="activities_to_engage_in"
                                                                 placeholder="Write here"></textarea>
                                                         </div>
                                                         <div class="comment-box">
                                                             <p><i class="fas fa-comments"></i> Objectives to Achieve
                                                                 within the Association</p>
-                                                            <textarea name="full_comments"
+                                                            <textarea name="objectives_to_engage"
                                                                 placeholder="Write here"></textarea>
                                                         </div>
                                                     </div>
@@ -271,7 +268,7 @@
                                                 <ul>
                                                     <li><span class="js-btn-prev" title="BACK"><i
                                                                 class="fa fa-arrow-left"></i> BACK </span></li>
-                                                    <li><button type="submit" title="NEXT">SUBMIT <i
+                                                    <li><button type="submit" name="joinus-btn-submit" title="NEXT">SUBMIT <i
                                                                 class="fa fa-arrow-right"></i></button></li>
                                                 </ul>
                                             </div>

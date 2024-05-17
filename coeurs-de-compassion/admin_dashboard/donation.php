@@ -1,4 +1,13 @@
-<?php include 'include/header.php' ?>
+<?php include 'include/header.php';
+include_once 'C:\wamp64\www\ACCVO VF\ppfe\coeurs-de-compassion\Models\UI\donationModel.php';
+
+
+$compte = new donation();
+$listcompte = donation::getAll();
+
+?>
+
+
         <h2 class="intro-y text-lg font-medium mt-10">
             <i class='bx bx-donate-heart'></i> Don/Donateur
         </h2>
@@ -25,84 +34,25 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <?php foreach($listcompte as $c){?>
+
                                 <tr class="intro-x">
-                                    <td >1</td>
-                                        
+                                    <td ><?php echo $c['donation']->getIdDon(); ?></td>                                       
                                     </td>
-                                    
-                                    <td >Ahkouk</td>
-                                    
-                                    <td class="text-center">Walid</td>
-                                    <td class="text-center"> <input class="datepicker input w-56 border block mx-auto"> </td>
-                                    <td class="text-center">500dh </td>
-                                    <td class="text-center">walidahkouk@gmail.com </td>
+                                    <td ><?php echo $c['donor']->getLastn(); ?></td>  
+                                    <td class="text-center"><?php echo $c['donor']->getFirstn(); ?></td>
+                                    <td class="text-center"> <?php echo $c['donation']->getDate(); ?> </td>
+                                    <td class="text-center"><?php echo $c['donation']->getDonValue(); ?> </td>
+                                    <td class="text-center"><?php echo $c['donor']->getEmail(); ?> </td>
                                     <td class="table-report__action w-56">
-                                        <div class="flex justify-center items-center">
-                                            
+                                        <div class="flex justify-center items-center">     
                                             <a class="flex items-center mr-3" href="javascript:;"> <i data-feather="check-square" class="w-4 h-4 mr-1"></i> Edit </a>
                                             <a class="flex items-center text-theme-6" href="javascript:;" data-toggle="modal" data-target="#delete-confirmation-modal"> <i data-feather="trash-2" class="w-4 h-4 mr-1"></i> Delete </a>
                                         </div>
                                     </td>
-                              </tr>
-
-                              <tr class="intro-x">
-                                <td >2</td>
-                                    
-                                </td>
-                                
-                                <td >Mahmoud</td>
-                                
-                                <td class="text-center">Aya</td>
-                                <td class="text-center"> <input class="datepicker input w-56 border block mx-auto"> </td>
-                                <td class="text-center">700dh </td>
-                                <td class="text-center">Ayamahmoud@gmail.com </td>
-                                <td class="table-report__action w-56">
-                                    <div class="flex justify-center items-center">
-                                        
-                                        <a class="flex items-center mr-3" href="javascript:;"> <i data-feather="check-square" class="w-4 h-4 mr-1"></i> Edit </a>
-                                        <a class="flex items-center text-theme-6" href="javascript:;" data-toggle="modal" data-target="#delete-confirmation-modal"> <i data-feather="trash-2" class="w-4 h-4 mr-1"></i> Delete </a>
-                                    </div>
-                                </td>
-                          </tr>
-                          <tr class="intro-x">
-                            <td >3</td>
-                                
-                            </td>
-                            
-                            <td >Ouma</td>
-                            
-                            <td class="text-center">Najlaa</td>
-                            <td class="text-center"> <input class="datepicker input w-56 border block mx-auto"> </td>
-                            <td class="text-center">800dh </td>
-                            <td class="text-center">Najlaouma@gmail.com </td>
-                            <td class="table-report__action w-56">
-                                <div class="flex justify-center items-center">
-                                    
-                                    <a class="flex items-center mr-3" href="javascript:;"> <i data-feather="check-square" class="w-4 h-4 mr-1"></i> Edit </a>
-                                    <a class="flex items-center text-theme-6" href="javascript:;" data-toggle="modal" data-target="#delete-confirmation-modal"> <i data-feather="trash-2" class="w-4 h-4 mr-1"></i> Delete </a>
-                                </div>
-                            </td>
-                      </tr>
-                      <tr class="intro-x">
-                        <td >4</td>
-                            
-                        </td>
-                        
-                        <td >Ait sitahar</td>
-                        
-                        <td class="text-center">Imane</td>
-                        <td class="text-center"> <input class="datepicker input w-56 border block mx-auto"> </td>
-                        <td class="text-center">900dh </td>
-                        <td class="text-center">Imaneaitsitahar@gmail.com </td>
-                        <td class="table-report__action w-56">
-                            <div class="flex justify-center items-center">
-                                
-                                <a class="flex items-center mr-3" href="javascript:;"> <i data-feather="check-square" class="w-4 h-4 mr-1"></i> Edit </a>
-                                <a class="flex items-center text-theme-6" href="javascript:;" data-toggle="modal" data-target="#delete-confirmation-modal"> <i data-feather="trash-2" class="w-4 h-4 mr-1"></i> Delete </a>
-                            </div>
-                        </td>
-                  </tr>
-                                
+                                 </tr>
+                                <?php } ?>
+                             
                                 
                                
                                 

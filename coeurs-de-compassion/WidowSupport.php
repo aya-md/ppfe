@@ -30,7 +30,7 @@
                                 <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
                                     <h2 id="heading">Fill our Benefit form</h2>
                                    
-                                    <form id="msform">
+                                    <form id="msform" method="POST">
                                         <!-- progressbar -->
                                         <ul id="progressbar" style="display: flex;">
                                             <li class="active" id="account"><strong>THE WIDOW</strong></li>
@@ -54,41 +54,30 @@
                                                     </div>
                                                 </div>
                                                 <label class="fieldlabels">Full Name: *</label>
-                                                <input type="text" name="uname" placeholder="Full Name" />
+                                                <input type="text" name="fnamewidow" placeholder="Full Name" />
                                                 <label class="fieldlabels">Birth date: *</label>
                                                 <div class="date-picker date datepicker">
-                                                    <input type="text" name="date" class="form-control"
+                                                    <input type="text" name="datewidow" class="form-control"
                                                         placeholder="Enter you birth date">
                                                     <div class="input-group-append"><span></span></div>
                                                 </div>
                                                 <label class="fieldlabels">CIN: *</label>
-                                                <input type="text" name="uname" placeholder="CIN" />
+                                                <input type="text" name="cinwidow" placeholder="CIN" />
                                                 <label class="fieldlabels">Eduaction level: *</label>
                                               
                                                 <div class="education-select">
-                                                    <select class="form-select form-select-md mb-3" name="languages">
-                                                        <option>Primary school</option>
-                                                        <option>Secondary school</option>
-                                                        <option>High school</option>
-                                                        <option>Other</option>
+                                                    <select class="form-select form-select-md mb-3" name="edulevelwidow">
+                                                        <option value="Primary school">Primary school</option>
+                                                        <option value="Secondary school">Secondary school</option>
+                                                        <option value="High school">High school</option>
+                                                        <option value="Other">Other</option>
                                                     </select>
                                                 </div>
-                                                
-
-                                                <label class="fieldlabels">Health Status:</label>                                                                                                                    
-                                                    <div class="HealthStatus">
-                                                            <input type="radio"  name="gender" value="Male">
-                                                            <b>Good</b>
-                                                     
-                                                            <input type="radio" name="gender" value="Female">
-                                                            <b>Poor</b>  
-                                                    </div>
-                                                    <label class="fieldlabels">Health problems</label>
-                                                    <input type="text" name="uname" placeholder="enter your health problems" />
+                                                                                                
                                                     <label class="fieldlabels">Job: *</label>
-                                                    <input type="text" name="uname" placeholder="Job" />
+                                                    <input type="text" name="jobwidow" placeholder="Job" />
                                                     <label class="fieldlabels">Salary: *</label>
-                                                    <input type="text" name="uname" placeholder="Salary" />
+                                                    <input type="text" name="salarywidow" placeholder="Salary" />
                                                     <label class="fieldlabels">Do you Have RAMEED card?</label>                                                                                                                    
                                                     <div class="RAMEED">
                                                             <input type="radio"  name="RAMEED" value="Yes">
@@ -98,17 +87,17 @@
                                                             <b>No</b>    
                                                     </div>
                                                     <label class="fieldlabels">Validity of the RAMEED card*</label>
-                                                    <input type="text" name="uname" placeholder="Validity" />
+                                                    <input type="text" name="ramidval" placeholder="Validity" />
                                                     <div class="education-select">
                                                         <label class="fieldlabels">Do you Benefit from</label>
-                                                        <select class="form-select form-select-md mb-3" name="languages">
-                                                            <option>Widows pension</option>
-                                                            <option>Retirement funds</option>
-                                                            <option>None</option>
+                                                        <select class="form-select form-select-md mb-3" name="benefitwidow">
+                                                            <option value="Widows pension">Widows pension</option>
+                                                            <option value="Retirement funds">Retirement funds</option>
+                                                            <option value="None">None</option>
                                                         </select>
                                                     </div>
                                                     <label class="fieldlabels">Its value: *</label>
-                                                    <input type="text" name="uname" placeholder="Value" />
+                                                    <input type="text" name="valuebenefit" placeholder="Value" />
                                             </div> <input type="button" name="next" class="next action-button" value="Next" />
                                         </fieldset>
                                         
@@ -124,30 +113,30 @@
                                                     </div>
                                                 </div>
                                                 <label class="fieldlabels">Full Name: *</label>
-                                                <input type="text" name="uname" placeholder="Full Name" />
+                                                <input type="text" name="namef" placeholder="Full Name" />
                                                 <label class="fieldlabels">Death date: *</label>
                                                 <div class="date-picker date datepicker">
-                                                    <input type="text" name="date" class="form-control"
+                                                    <input type="text" name="datef" class="form-control"
                                                         placeholder="Enter the father death date">
                                                     <div class="input-group-append"><span></span></div>
                                                 </div>
                                                 <label class="fieldlabels">Death cause: *</label>
-                                                <input type="text" name="uname" placeholder="Enter the father death cause" />
+                                                <input type="text" name="causedeath" placeholder="Enter the father death cause" />
                                                 <label class="fieldlabels">Job: *</label>
-                                                <input type="text" name="uname" placeholder="Job" />
+                                                <input type="text" name="jobf" placeholder="Job" />
 
                                                 <label class="fieldlabels">Employer: *</label>
-                                                <input type="text" name="uname" placeholder="Employer" />                                             
+                                                <input type="text" name="emplf" placeholder="Employer" />                                             
 
                                                 <label class="fieldlabels">Social Insurance:</label>                                                                                                                    
                                                     <div class="HealthStatus">
-                                                            <input type="radio"  name="gender" value="Male">
+                                                            <input type="radio"  name="scinf" value="CNSS">
                                                             <b>CNSS</b>
                                                      
-                                                            <input type="radio" name="gender" value="Female">
+                                                            <input type="radio" name="scinf" value="Retirement">
                                                             <b>Retirement</b> 
                                                             
-                                                            <input type="radio" name="gender" value="Female">
+                                                            <input type="radio" name="scinf" value="None">
                                                             <b>None</b> 
                                                     </div>
                                                     
@@ -167,44 +156,44 @@
                                                     </div>
                                                 </div>
                                                 <label class="fieldlabels">Full Name: *</label>
-                                                <input type="text" name="uname" placeholder="Full Name" />
+                                                <input type="text" name="nameorph" placeholder="Full Name" />
                                                 <label class="fieldlabels">Birth date: *</label>
                                                 <div class="date-picker date datepicker">
-                                                    <input type="text" name="date" class="form-control"
+                                                    <input type="text" name="dateorph" class="form-control"
                                                         placeholder="Enter you birth date">
                                                     <div class="input-group-append"><span></span></div>
                                                 </div>
                                                 <label class="fieldlabels">Gender:</label>                                                                                                                    
                                                     <div class="HealthStatus">
-                                                            <input type="radio"  name="gender" value="Male">
+                                                            <input type="radio"  name="genderorph" value="Male">
                                                             <b>Male</b>
                                                      
-                                                            <input type="radio" name="gender" value="Female">
+                                                            <input type="radio" name="genderorph" value="Female">
                                                             <b>Female</b>     
                                                     </div>
                                                 <label class="fieldlabels">CIN: *</label>
-                                                <input type="text" name="uname" placeholder="CIN" />
+                                                <input type="text" name="cinorph" placeholder="CIN" />
                                                 <label class="fieldlabels">Eduaction level: *</label>
                                               
                                                 <div class="education-select">
-                                                    <select class="form-select form-select-md mb-3" name="languages">
-                                                        <option>Primary school</option>
-                                                        <option>Secondary school</option>
-                                                        <option>High school</option>
+                                                    <select class="form-select form-select-md mb-3" name="edulevel">
+                                                    <option value="Primary school">Primary school</option>
+                                                        <option value="Secondary school">Secondary school</option>
+                                                        <option value="High school">High school</option>
                                                     </select>
                                                 </div>
                                                 
 
                                                 <label class="fieldlabels">Health Status:</label>                                                                                                                    
                                                     <div class="HealthStatus">
-                                                            <input type="radio"  name="gender" value="Male">
+                                                            <input type="radio"  name="hsorph" value="Good">
                                                             <b>Good</b>
                                                      
-                                                            <input type="radio" name="gender" value="Female">
+                                                            <input type="radio" name="hsorph" value="Poor">
                                                             <b>Poor</b>     
                                                     </div>
                                                     <label class="fieldlabels">Health problems</label>
-                                                    <input type="text" name="uname" placeholder="enter the orphan's health problems" />
+                                                    <input type="text" name="hporph" placeholder="enter the orphan's health problems" />
                                             </div> <input type="button" name="next" class="next action-button" value="Next" />
                                             <input type="button" name="previous" class="previous action-button" value="Previous" />
                                         </fieldset>
@@ -220,15 +209,15 @@
                                                 </div>
                                                 <div class="education-select">
                                                     <label class="fieldlabels">Type</label>
-                                                    <select class="form-select form-select-md mb-3" name="languages">
-                                                        <option>Property</option>
-                                                        <option>rent</option>
-                                                        <option>mortgage</option>
-                                                        <option>Shared ACCOMODATION</option>
+                                                    <select class="form-select form-select-md mb-3" name="accotype">
+                                                        <option value="Property">Property</option>
+                                                        <option value="rent">rent</option>
+                                                        <option value="mortgage">mortgage</option>
+                                                        <option value="Shared ACCOMODATION">Shared ACCOMODATION</option>
                                                     </select>
                                                 </div>
                                                 <label class="fieldlabels">The estimated value of the house: *</label>
-                                                <input type="text" name="uname" placeholder="value" />
+                                                <input type="text" name="accomvalue" placeholder="value" />
                                                 <label class="fieldlabels">household appliances quality :</label>                                                                                                                    
                                                     <div class="HealthStatus">
                                                             <input type="radio"  name="appliances" value="Excellent">
@@ -239,7 +228,7 @@
                                                             
                                                             <input type="radio" name="appliances" value="Poor">
                                                             <b>Poor</b> 
-                                                            <input type="radio" name="appliances" value="no">
+                                                            <input type="radio" name="appliances" value="nothing">
                                                             <b>We don't have any machines</b>   
                                                     </div>
                                                     <label class="fieldlabels">Does your house have access to electricity? :</label>                                                                                                                    
@@ -252,7 +241,7 @@
 
                                                     </div>
                                                     <label class="fieldlabels">What is the average monthly bill for electricity at your place? *</label>
-                                                <input type="text" name="uname" placeholder="value" />
+                                                <input type="text" name="elecbill" placeholder="value" />
                                                     <label class="fieldlabels">Is there water service at your house?</label>                                                                                                                    
                                                     <div class="water">
                                                             <input type="radio"  name="water" value="Yes">
@@ -263,7 +252,7 @@
 
                                                     </div>
                                                     <label class="fieldlabels">What is the average monthly bill for water at your place? *</label>
-                                                <input type="text" name="uname" placeholder="value" />
+                                                <input type="text" name="waterbill" placeholder="value" />
                                             </div> <input type="button" name="next" class="next action-button" value="Next" />
                                             <input type="button" name="previous" class="previous action-button" value="Previous" />
                                         </fieldset>
@@ -278,23 +267,23 @@
                                                     </div>
                                                 </div>
                                                 <label class="fieldlabels">What types of aid are available? *</label>
-                                                <input type="text" name="uname" placeholder="Aid type" />
+                                                <input type="text" name="typea" placeholder="Aid type" />
                                               
                                                 <label class="fieldlabels">What is the value or amount of this aid? *</label>
-                                                <input type="text" name="uname" placeholder="Aid value" />
+                                                <input type="text" name="valuea" placeholder="Aid value" />
                                               
                                                 <div class="education-select">
                                                     <label class="fieldlabels">How often do you receive assistance?:</label>
-                                                    <select class="form-select form-select-md mb-3" name="languages">
-                                                        <option>Weekly</option>
-                                                        <option>monthly</option>
-                                                        <option>Yearly</option>
+                                                    <select class="form-select form-select-md mb-3" name="frequencyaid">
+                                                        <option value="Weekly">Weekly</option>
+                                                        <option value="Monthly">Monthly</option>
+                                                        <option value="Yearly">Yearly</option>
                                                     </select>
                                                 </div>
                                                 
 
-                                            </div> <input type="button" name="next" class="next action-button" value="Next" />
-                                            <input type="button" name="previous" class="previous action-button" value="Previous" />
+                                            </div> <input type="submit" name="widow-btn-submit" class="next action-button" value="Confirm" />
+
                                         </fieldset>
                                         <fieldset>
                                             <div class="form-card">

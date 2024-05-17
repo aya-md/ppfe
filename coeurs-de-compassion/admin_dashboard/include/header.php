@@ -88,7 +88,7 @@
                 <div class="side-nav__devider my-6"></div>
                 <ul>
                     <li>
-                        <a href="index.php" class="side-menu side-menu--active">
+                        <a href="index.php" class="side-menu">
                             <div class="side-menu__icon"> <span class="material-symbols-outlined">
                                 family_home
                                 </span> </div>
@@ -97,7 +97,7 @@
                     </li>
                    
                     <li>
-                        <a href="donation.php" class="side-menu">
+                        <a href="donation.php" class="side-menu ">
                             <div class="side-menu__icon"> <span class="material-symbols-outlined">
                                 volunteer_activism
                                 </span> </div>

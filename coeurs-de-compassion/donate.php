@@ -1,4 +1,10 @@
-<?php include 'include/header.php';?>
+<?php 
+include 'include/header.php';
+include 'C:\wamp64\www\ACCVO VF\ppfe\coeurs-de-compassion\Controllers\UI\donationController.php';
+
+?>
+
+
     <!-- start page-wrapper -->
     <div class="page-wrapper">
         <!-- .tp-breadcumb-area start -->
@@ -17,6 +23,9 @@
                 </div>
             </div>
         </div>
+        <?php if(isset($msg) and $msg !== ''){
+                        echo $msg;
+                        } ?>
         <div class="tp-donation-page-area section-padding">
             <div class="container">
                 <div class="row">
@@ -28,7 +37,7 @@
                             <h2 style="margin-bottom:20px;margin-left:10px; font-weight:bold; font-size:40px">Make a Donation</h2>
                         </div>
                         <div id="Donations" class="tab-pane">
-                            <form action="POST">
+                            <form  method="POST">
                                 <div class="tp-donations-amount">
                                     <h2>Your Donation</h2>
                                     <input type="text" class="form-control" name="don" id="don" placeholder="Enter Donation Amount">
@@ -37,10 +46,10 @@
                                     <h2>Details</h2>
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-12 form-group">
-                                            <input type="text" class="form-control" name="name" id="fname" placeholder="First Name">
+                                            <input type="text" class="form-control" name="fname" id="fname" placeholder="First Name">
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-12 form-group">
-                                            <input type="text" class="form-control" name="name" id="name" placeholder="Last Name">
+                                            <input type="text" class="form-control" name="lname" id="lname" placeholder="Last Name">
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-12 form-group clearfix">
                                             <input type="email" class="form-control" name="email" id="email" placeholder="Email">
@@ -82,10 +91,12 @@
                                                           
                                                             <div id="paypal-button-container"></div>
                                                             <p id="result-message"></p>
-                                                           
+                                                 
 
                                                         
                                                     </div>
+                                                   <input type="submit" value="Confirmer" name="btn-donation">
+                    
                                                 </div>
                                             </div>
                                         </div>

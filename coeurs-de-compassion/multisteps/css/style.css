@@ -717,7 +717,7 @@ select.form-control option[value=""][disabled] {
   border-bottom: 2px solid #F26716;
 }
 .form-content h2 {
-  font-size: 50px;
+  font-size: 2em;
   font-weight: 700;
   padding: 10px 0px 0px 0px;
 }
@@ -1179,7 +1179,7 @@ select.form-control option[value=""][disabled] {
   }
 
   .form-content h2 {
-    font-size: 42px;
+    font-size: 3em;
   }
 
   .form-content p {
@@ -1190,7 +1190,7 @@ select.form-control option[value=""][disabled] {
 }
 @media screen and (max-width: 1280px) {
   .form-content h2 {
-    font-size: 40px;
+    font-size: 3em;
   }
 
   .form-content p {

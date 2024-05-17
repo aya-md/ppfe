@@ -114,7 +114,7 @@
     <header class="header-area">
         <div class="container">
             <div class="header__main">
-                <a href="index.php" class="logo" style="width: 13em;">
+                <a href="index.php" class="logo" style="width: 11em;">
                     <img src="assets/images/logo/logoo.png" alt="logo" class="lg" >
                 </a>
                 <div class="main-menu">
@@ -129,11 +129,7 @@
                                         <a href="who_we_are.php">Who we are</a>
                                     </li>
                                     <li>
-<<<<<<< HEAD
                                         <a href="OurMission&Vission.php">Our mission & vision</a>
-=======
-                                        <a href="ourmissionandvision.php">Our mission & vision</a>
->>>>>>> 24bc51f5148a44ff9654c73c0f8b5e22460a0678
                                     </li>
                                      
                                 </ul>

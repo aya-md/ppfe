@@ -1,4 +1,8 @@
-<?php include 'include/header.php';?>
+<?php
+ include 'include/header.php';
+ include_once 'C:\wamp64\www\ACCVO VF\ppfe\coeurs-de-compassion\Models\UI\OrphaneModel.php';
+
+ ?>
 <body class="bd">
     <!-- start page-wrapper -->
     <div class="page-wrapper">
@@ -29,7 +33,7 @@
                                 <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
                                     <h2 id="heading">Fill our Benefit form</h2>
                                    
-                                    <form id="msform">
+                                    <form id="msform" action="controllers/UI/orphaneCareController.php" method="POST">
                                         <!-- progressbar -->
                                         <ul id="progressbar" style="display: flex;">
                                             <li class="active" id="account"><strong>THE ORPHAN</strong></li>
@@ -53,44 +57,43 @@
                                                     </div>
                                                 </div>
                                                 <label class="fieldlabels">Full Name: *</label>
-                                                <input type="text" name="uname" placeholder="Full Name" />
+                                                <input type="text" name="nameorph" placeholder="Full Name" />
                                                 <label class="fieldlabels">Birth date: *</label>
                                                 <div class="date-picker date datepicker">
-                                                    <input type="text" name="date" class="form-control"
+                                                    <input type="text" name="dateorph" class="form-control"
                                                         placeholder="Enter you birth date">
                                                     <div class="input-group-append"><span></span></div>
                                                 </div>
                                                 <label class="fieldlabels">Gender:</label>                                                                                                                    
                                                     <div class="HealthStatus">
-                                                            <input type="radio"  name="gender" value="Male">
+                                                            <input type="radio"  name="genderorph" value="Male">
                                                             <b>Male</b>
                                                      
-                                                            <input type="radio" name="gender" value="Female">
+                                                            <input type="radio" name="genderorph" value="Female">
                                                             <b>Female</b>     
                                                     </div>
                                                 <label class="fieldlabels">CIN: *</label>
-                                                <input type="text" name="uname" placeholder="CIN" />
+                                                <input type="text" name="cinorph" placeholder="CIN" />
                                                 <label class="fieldlabels">Eduaction level: *</label>
                                               
                                                 <div class="education-select">
-                                                    <select class="form-select form-select-md mb-3" name="languages">
-                                                        <option>Primary school</option>
-                                                        <option>Secondary school</option>
-                                                        <option>High school</option>
+                                                    <select class="form-select form-select-md mb-3" name="edulevel">
+                                                        <option value="Primary school">Primary school</option>
+                                                        <option value="Secondary school">Secondary school</option>
+                                                        <option value="High school">High school</option>
                                                     </select>
                                                 </div>
                                                 
-
                                                 <label class="fieldlabels">Health Status:</label>                                                                                                                    
                                                     <div class="HealthStatus">
-                                                            <input type="radio"  name="gender" value="Male">
+                                                            <input type="radio"  name="hsorph" value="Good">
                                                             <b>Good</b>
                                                      
-                                                            <input type="radio" name="gender" value="Female">
+                                                            <input type="radio" name="hsorph" value="Poor">
                                                             <b>Poor</b>     
                                                     </div>
                                                     <label class="fieldlabels">Health problems:</label>
-                                                    <input type="text" name="uname" placeholder="enter the orphan's health problems" />
+                                                    <input type="text" name="hporph" placeholder="enter the orphan's health problems" />
                                             </div> <input type="button" name="next" class="next action-button" value="Next" />
                                         </fieldset>
                                         <fieldset>
@@ -104,14 +107,14 @@
                                                     </div>
                                                 </div>
                                                 <label class="fieldlabels">Full Name: *</label>
-                                                <input type="text" name="uname" placeholder="Full Name" />
+                                                <input type="text" name="namek" placeholder="Full Name" />
                                             
                                                 <label class="fieldlabels">CIN: *</label>
-                                                <input type="text" name="uname" placeholder="CIN" />
+                                                <input type="text" name="CINkaf" placeholder="CIN" />
                                                 <label class="fieldlabels">Phone number: *</label>
-                                                <input type="tel" name="uname" placeholder="Phone number" />
+                                                <input type="tel" name="phonek" placeholder="Phone number" />
                                                 <label class="fieldlabels">Address: *</label>
-                                                <textarea name="adress" id="" cols="30" rows="10"></textarea>
+                                                <textarea name="adressk" id="adressk" cols="30" rows="10"></textarea>
 
                                                 
                                             </div> <input type="button" name="next" class="next action-button" value="Next" />
@@ -128,30 +131,30 @@
                                                     </div>
                                                 </div>
                                                 <label class="fieldlabels">Full Name: *</label>
-                                                <input type="text" name="uname" placeholder="Full Name" />
+                                                <input type="text" name="namef" placeholder="Full Name" />
                                                 <label class="fieldlabels">Death date: *</label>
                                                 <div class="date-picker date datepicker">
-                                                    <input type="text" name="date" class="form-control"
+                                                    <input type="text" name="datef" class="form-control"
                                                         placeholder="Enter the father death date">
                                                     <div class="input-group-append"><span></span></div>
                                                 </div>
                                                 <label class="fieldlabels">Death cause: *</label>
                                                 <input type="text" name="uname" placeholder="Enter the father death cause" />
                                                 <label class="fieldlabels">Job: *</label>
-                                                <input type="text" name="uname" placeholder="Job" />
+                                                <input type="text" name="jobf" placeholder="Job" />
 
                                                 <label class="fieldlabels">Employer: *</label>
-                                                <input type="text" name="uname" placeholder="Employer" />                                             
+                                                <input type="text" name="emplf" placeholder="Employer" />                                             
 
                                                 <label class="fieldlabels">Social Insurance:</label>                                                                                                                    
                                                     <div class="HealthStatus">
-                                                            <input type="radio"  name="gender" value="Male">
+                                                            <input type="radio"  name="scinf" value="CNSS">
                                                             <b>CNSS</b>
                                                      
-                                                            <input type="radio" name="gender" value="Female">
+                                                            <input type="radio" name="scinf" value="Retirement">
                                                             <b>Retirement</b> 
                                                             
-                                                            <input type="radio" name="gender" value="Female">
+                                                            <input type="radio" name="scinf" value="None">
                                                             <b>None</b> 
                                                     </div>
                                             </div> <input type="button" name="next" class="next action-button" value="Next" />
@@ -169,15 +172,15 @@
                                                 </div>
                                                 <div class="education-select">
                                                     <label class="fieldlabels">Type</label>
-                                                    <select class="form-select form-select-md mb-3" name="languages">
-                                                        <option>Property</option>
-                                                        <option>rent</option>
-                                                        <option>mortgage</option>
-                                                        <option>Shared ACCOMODATION</option>
+                                                    <select class="form-select form-select-md mb-3" name="accotype">
+                                                        <option value="Property">Property</option>
+                                                        <option value="rent">rent</option>
+                                                        <option value="mortgage">mortgage</option>
+                                                        <option value="Shared ACCOMODATION">Shared ACCOMODATION</option>
                                                     </select>
                                                 </div>
                                                 <label class="fieldlabels">The estimated value of the house: *</label>
-                                                <input type="text" name="uname" placeholder="value" />
+                                                <input type="text" name="accomvalue" placeholder="value" />
                                                 <label class="fieldlabels">household appliances quality :</label>                                                                                                                    
                                                     <div class="HealthStatus">
                                                             <input type="radio"  name="appliances" value="Excellent">
@@ -188,7 +191,7 @@
                                                             
                                                             <input type="radio" name="appliances" value="Poor">
                                                             <b>Poor</b> 
-                                                            <input type="radio" name="appliances" value="no">
+                                                            <input type="radio" name="appliances" value="none">
                                                             <b>We don't have any machines</b>   
                                                     </div>
                                                     <label class="fieldlabels">Does your house have access to electricity? :</label>                                                                                                                    
@@ -201,7 +204,7 @@
 
                                                     </div>
                                                     <label class="fieldlabels">What is the average monthly bill for electricity at your place? *</label>
-                                                <input type="text" name="uname" placeholder="value" />
+                                                <input type="text" name="elecbill" placeholder="value" />
                                                     <label class="fieldlabels">Is there water service at your house?</label>                                                                                                                    
                                                     <div class="water">
                                                             <input type="radio"  name="water" value="Yes">
@@ -212,7 +215,7 @@
 
                                                     </div>
                                                     <label class="fieldlabels">What is the average monthly bill for water at your place? *</label>
-                                                <input type="text" name="uname" placeholder="value" />
+                                                <input type="text" name="waterbill" placeholder="value" />
                                             </div> <input type="button" name="next" class="next action-button" value="Next" />
                                             <input type="button" name="previous" class="previous action-button" value="Previous" />
                                         </fieldset>
@@ -227,23 +230,23 @@
                                                     </div>
                                                 </div>
                                                 <label class="fieldlabels">What types of aid are available? *</label>
-                                                <input type="text" name="uname" placeholder="Aid type" />
+                                                <input type="text" name="typea" placeholder="Aid type" />
                                               
                                                 <label class="fieldlabels">What is the value or amount of this aid? *</label>
-                                                <input type="text" name="uname" placeholder="Aid value" />
+                                                <input type="text" name="valuea" placeholder="Aid value" />
                                                 
                                               
                                                 <div class="education-select">
                                                     <label class="fieldlabels">How often do you receive assistance? :</label>
-                                                    <select class="form-select form-select-md mb-3" name="languages">
-                                                        <option>Weekly</option>
-                                                        <option>monthly</option>
-                                                        <option>Yearly</option>
+                                                    <select class="form-select form-select-md mb-3" name="frequencyaid">
+                                                        <option value="Weekly">Weekly</option>
+                                                        <option value="Monthly">Monthly</option>
+                                                        <option value="Yearly">Yearly</option>
                                                     </select>
                                                 </div>
                                             
-                                            </div> <input type="button" name="next" class="next action-button" value="Next" />
-                                            <input type="button" name="previous" class="previous action-button" value="Previous" />
+                                            </div> <input type="submit" name="orphan-btn-submit" id="orphan-btn-submit" class="next action-button" value="Submit" />
+                                            
                                         </fieldset>
                                         <fieldset>
                                             <div class="form-card">
@@ -265,7 +268,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <input type="button" name="previous" class="previous action-button" value="Previous" />
+                                           
                                         </fieldset>
                                     </form>
                                 </div>
