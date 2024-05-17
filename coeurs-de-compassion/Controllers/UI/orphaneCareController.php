@@ -5,22 +5,7 @@ include_once 'C:\wamp64\www\ACCVO VF\ppfe\coeurs-de-compassion\Models\UI\fatherM
 include_once 'C:\wamp64\www\ACCVO VF\ppfe\coeurs-de-compassion\Models\UI\kafilModel.php';
 include_once 'C:\wamp64\www\ACCVO VF\ppfe\coeurs-de-compassion\Models\UI\OrphaneModel.php';
 include_once 'C:\wamp64\www\ACCVO VF\ppfe\coeurs-de-compassion\Models\UI\widowModel.php';
-if (isset($_POST['orphan-btn-submit'])){
-      
-  $fnamekafil=$_POST['namek'];
-  $CINkaf=$_POST['CINkaf'];
-  $adress=$_POST['adressk'];
-  $phone=$_POST['phonek'];
 
-  $k=new kafil();
-  $k->setFull_name($fnamekafil);
-  $k->setCIN($CINkaf);
-  $k->setAdress($adress);
-  $k->setPhone($phone);
-
-  $fkk = $k->create($fkac,$fkai);
-}
-else
 
 if(isset($_POST['orphan-btn-submit']) or isset($_POST['widow-btn-submit'])){
         $fnameorph=$_POST['nameorph'];
@@ -86,13 +71,28 @@ if(isset($_POST['orphan-btn-submit']) or isset($_POST['widow-btn-submit'])){
          $fkai = $ai->create();
          $fkf =$f->create();
         
-       
+
+} 
 if (isset($fkk)){
          $o->createOK(NULL,$fkk,$fkf);
         }
       
        
-}
+        if (isset($_POST['orphan-btn-submit'])){
+      
+          $fnamekafil=$_POST['namek'];
+          $CINkaf=$_POST['CINkaf'];
+          $adress=$_POST['adressk'];
+          $phone=$_POST['phonek'];
+        
+          $k=new kafil();
+          $k->setFull_name($fnamekafil);
+          $k->setCIN($CINkaf);
+          $k->setAdress($adress);
+          $k->setPhone($phone);
+        
+          $fkk = $k->create($fkac,$fkai);
+        }
 if(isset($_POST['widow-btn-submit'])){
   $fnamewidow = $_POST['fnamewidow'];
   $datewidow = date('Y-m-d',((int)$_POST['datewidow']));
