@@ -1,6 +1,8 @@
 <?php
 include_once 'C:\xampp\htdocs\nnn\ppfe\coeurs-de-compassion\Models\Config.php';
-class member {
+class member
+{
+    private $idmember;
     private $Status;
     private $FullName;
     private $Cin;
@@ -9,14 +11,16 @@ class member {
     private $Email;
     private $Phone;
     private $Gender;
-    private $Photo;// 
+    private $Photo; // 
     private $Academiclvl;
     private $Speciality;
     private $Intrests;
-    private $Activities; 
+    private $Activities;
     private $Objectives;
     private $image;
-    public function adherent ($Status='',$FullName='',$Cin='',$Date='',$BirthPlace='',$Email='',$Phone='',$Gender='',$Photo='',$Academiclvl='',$Speciality='',$Intrests='',$Activities='',$Objectives=''){
+    public function __construct($idmember = '', $FullName = '', $Status = '', $Cin = '', $Date = '', $BirthPlace = '', $Email = '', $Phone = '', $Gender = '', $Photo = '', $Academiclvl = '', $Speciality = '', $Intrests = '', $Activities = '', $Objectives = '')
+    {
+        $this->idmember = $idmember;
         $this->Status = $Status;
         $this->FullName = $FullName;
         $this->Cin = $Cin;
@@ -31,12 +35,11 @@ class member {
         $this->Intrests = $Intrests;
         $this->Activities = $Activities;
         $this->Objectives = $Objectives;
-        
     }
 
     /**
      * Get the value of Status
-     */ 
+     */
     public function getStatus()
     {
         return $this->Status;
@@ -46,7 +49,7 @@ class member {
      * Set the value of Status
      *
      * @return  self
-     */ 
+     */
     public function setStatus($Status)
     {
         $this->Status = $Status;
@@ -55,7 +58,7 @@ class member {
     }
     /**
      * Get the value of FullName
-     */ 
+     */
     public function getFullName()
     {
         return $this->FullName;
@@ -64,7 +67,7 @@ class member {
      * Set the value of FullName
      *
      * @return  self
-     */ 
+     */
     public function setFullName($FullName)
     {
         $this->FullName = $FullName;
@@ -73,7 +76,7 @@ class member {
     }
     /**
      * Get the value of Cin
-     */ 
+     */
     public function getCin()
     {
         return $this->Cin;
@@ -82,7 +85,7 @@ class member {
      * Set the value of Cin
      *
      * @return  self
-     */ 
+     */
     public function setCin($Cin)
     {
         $this->Cin = $Cin;
@@ -91,7 +94,7 @@ class member {
     }
     /**
      * Get the value of Date
-     */ 
+     */
     public function getDate()
     {
         return $this->Date;
@@ -100,7 +103,7 @@ class member {
      * Set the value of Date
      *
      * @return  self
-     */ 
+     */
     public function setDate($Date)
     {
         $this->Date = $Date;
@@ -109,7 +112,7 @@ class member {
     }
     /**
      * Get the value of BirthPlace
-     */ 
+     */
     public function getBirthPlace()
     {
         return $this->BirthPlace;
@@ -118,7 +121,7 @@ class member {
      * Set the value of BirthPlace
      *
      * @return  self
-     */ 
+     */
     public function setBirthPlace($BirthPlace)
     {
         $this->BirthPlace = $BirthPlace;
@@ -128,7 +131,7 @@ class member {
 
     /**
      * Get the value of Email
-     */ 
+     */
     public function getEmail()
     {
         return $this->Email;
@@ -138,7 +141,7 @@ class member {
      * Set the value of Email
      *
      * @return  self
-     */ 
+     */
     public function setEmail($Email)
     {
         $this->Email = $Email;
@@ -148,7 +151,7 @@ class member {
 
     /**
      * Get the value of Phone
-     */ 
+     */
     public function getPhone()
     {
         return $this->Phone;
@@ -158,7 +161,7 @@ class member {
      * Set the value of Phone
      *
      * @return  self
-     */ 
+     */
     public function setPhone($Phone)
     {
         $this->Phone = $Phone;
@@ -168,7 +171,7 @@ class member {
 
     /**
      * Get the value of Gender
-     */ 
+     */
     public function getGender()
     {
         return $this->Gender;
@@ -178,7 +181,7 @@ class member {
      * Set the value of Gender
      *
      * @return  self
-     */ 
+     */
     public function setGender($Gender)
     {
         $this->Gender = $Gender;
@@ -188,7 +191,7 @@ class member {
 
     /**
      * Get the value of Photo
-     */ 
+     */
     public function getPhoto()
     {
         return $this->Photo;
@@ -198,7 +201,7 @@ class member {
      * Set the value of Photo
      *
      * @return  self
-     */ 
+     */
     public function setPhoto($Photo)
     {
         $this->Photo = $Photo;
@@ -208,7 +211,7 @@ class member {
 
     /**
      * Get the value of Academiclvl
-     */ 
+     */
     public function getAcademiclvl()
     {
         return $this->Academiclvl;
@@ -218,7 +221,7 @@ class member {
      * Set the value of Academiclvl
      *
      * @return  self
-     */ 
+     */
     public function setAcademiclvl($Academiclvl)
     {
         $this->Academiclvl = $Academiclvl;
@@ -228,7 +231,7 @@ class member {
 
     /**
      * Get the value of Speciality
-     */ 
+     */
     public function getSpeciality()
     {
         return $this->Speciality;
@@ -238,7 +241,7 @@ class member {
      * Set the value of Speciality
      *
      * @return  self
-     */ 
+     */
     public function setSpeciality($Speciality)
     {
         $this->Speciality = $Speciality;
@@ -248,7 +251,7 @@ class member {
 
     /**
      * Get the value of Intrests
-     */ 
+     */
     public function getIntrests()
     {
         return $this->Intrests;
@@ -258,7 +261,7 @@ class member {
      * Set the value of Intrests
      *
      * @return  self
-     */ 
+     */
     public function setIntrests($Intrests)
     {
         $this->Intrests = $Intrests;
@@ -268,7 +271,7 @@ class member {
 
     /**
      * Get the value of Activities
-     */ 
+     */
     public function getActivities()
     {
         return $this->Activities;
@@ -278,7 +281,7 @@ class member {
      * Set the value of Activities
      *
      * @return  self
-     */ 
+     */
     public function setActivities($Activities)
     {
         $this->Activities = $Activities;
@@ -288,7 +291,7 @@ class member {
 
     /**
      * Get the value of Objectives
-     */ 
+     */
     public function getObjectives()
     {
         return $this->Objectives;
@@ -298,35 +301,75 @@ class member {
      * Set the value of Objectives
      *
      * @return  self
-     */ 
+     */
     public function setObjectives($Objectives)
     {
         $this->Objectives = $Objectives;
 
         return $this;
     }
-
- 
-    public function create(){
-        $v = connexion::DbConnexion()->prepare("insert into member(full_name,Cin,birth_date,birth_place,phone,email,gender,education_level,speciality,centres_of_interest,activities_to_engage_in,objectives_to_engage,status,id_admin,image_membre_url) values(?,?,?,?,?,?,?,?,?,?,?,?,?,1,?);");
-        $v->bindParam(1,$this->FullName);
-        $v->bindParam(2,$this->Cin);
-        $v->bindParam(3,$this->Date);
-        $v->bindParam(4,$this->BirthPlace);
-        $v->bindParam(5,$this->Phone);
-        $v->bindParam(6,$this->Email);
-        $v->bindParam(7,$this->Gender);
-        $v->bindParam(8,$this->Academiclvl);
-        $v->bindParam(9,$this->Speciality);
-        $v->bindParam(10,$this->Intrests);
-        $v->bindParam(11,$this->Activities);
-        $v->bindParam(12,$this->Objectives);
-        $v->bindParam(13,$this->Status);
-        $v->bindParam(14,$this->Photo);
-        $v->execute();
-        return $v ;
+    /**
+     * Get the value of idmember
+     */
+    public function getIdmember()
+    {
+        return $this->idmember;
     }
 
-  
+    /**
+     * Set the value of idmember
+     *
+     * @return  self
+     */
+    public function setIdmember($idmember)
+    {
+        $this->idmember = $idmember;
+
+        return $this;
+    }
+
+    public function create()
+    {
+        $v = connexion::DbConnexion()->prepare("insert into member(full_name,Cin,birth_date,birth_place,phone,email,gender,education_level,speciality,centres_of_interest,activities_to_engage_in,objectives_to_engage,status,id_admin,image_membre_url) values(?,?,?,?,?,?,?,?,?,?,?,?,?,1,?);");
+        $v->bindParam(1, $this->FullName);
+        $v->bindParam(2, $this->Cin);
+        $v->bindParam(3, $this->Date);
+        $v->bindParam(4, $this->BirthPlace);
+        $v->bindParam(5, $this->Phone);
+        $v->bindParam(6, $this->Email);
+        $v->bindParam(7, $this->Gender);
+        $v->bindParam(8, $this->Academiclvl);
+        $v->bindParam(9, $this->Speciality);
+        $v->bindParam(10, $this->Intrests);
+        $v->bindParam(11, $this->Activities);
+        $v->bindParam(12, $this->Objectives);
+        $v->bindParam(13, $this->Status);
+        $v->bindParam(14, $this->Photo);
+        $v->execute();
+        return $v;
+    }
+
+    public static function getAll()
+    {
+        $sql = connexion::DbConnexion()->prepare("select id_member,full_name,status from member");
+        $sql->execute();
+        $liste = array();
+
+        while ($objet = $sql->fetch(PDO::FETCH_OBJ)) {
+            $member = new member($objet->id_member, $objet->full_name, $objet->status);
+
+            $liste[] = [
+                'member' => $member
+
+            ];
+        }
+        $sql->closeCursor();
+
+        return $liste;
+    }
+    public static function delete($id)
+    {
+        $sql = connexion::DbConnexion()->exec("DELETE FROM member WHERE id_member = '" . $id . "' ;");
+        return $sql;
+    }
 }
-?>

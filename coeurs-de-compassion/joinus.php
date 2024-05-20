@@ -1,5 +1,11 @@
-<?php include 'include/header.php';?>
-<link rel="stylesheet" href="multisteps/css/style.css"> 
+<?php include 'include/header.php'; 
+
+include 'C:\xampp\htdocs\nnn\ppfe\coeurs-de-compassion\Controllers\UI\joinusController.php';
+
+
+?>
+<link rel="stylesheet" href="multisteps/css/style.css">
+
 <body class="bd">
     <!-- start page-wrapper -->
     <div class="page-wrapper">
@@ -18,6 +24,9 @@
                 </div>
             </div>
         </div>
+        <?php if (isset($msg) and $msg !== '') {
+            echo $msg;
+        } ?>
         <!-- .tp-breadcumb-area end -->
         <!-- volunteer-area-start -->
         <div class="volunteer-area">
@@ -37,14 +46,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row" >
-                        <div class="wrapper" >
-                                <div class="steps clearfix">
-                                    <ul class="tablist multisteps-form__progress">
-                                    </ul>
-                                </div>
-                        
-                            <form class="multisteps-form__form" action="Controllers/UI/joinusController.php" id="wizard" method="POST">
+                    <div class="row">
+                        <div class="wrapper">
+                            <div class="steps clearfix">
+                                <ul class="tablist multisteps-form__progress">
+                                </ul>
+                            </div>
+
+                            <form class="multisteps-form__form" id="wizard" method="POST">
                                 <div class="form-area position-relative">
                                     <!-- div 1 -->
                                     <div class="multisteps-form__panel js-active" data-animation="slideHorz">
@@ -65,38 +74,29 @@
                                                         <div class="step-box">
                                                             <div class="row">
                                                                 <div class="col-md-6">
-                                                                    <label
-                                                                        class="step-box-content bg-white text-center relative-position active">
+                                                                    <label class="step-box-content bg-white text-center relative-position active">
                                                                         <span class="step-box-icon">
-                                                                            <img src="multisteps/img/d1.png" alt=""
-                                                                                class="image">
+                                                                            <img src="multisteps/img/d1.png" alt="" class="image">
                                                                         </span>
                                                                         <span class="step-box-text">
                                                                             Volunteer
                                                                         </span>
                                                                         <span class="service-check-option">
-                                                                            <span><input type="radio"
-                                                                                    name="Status"
-                                                                                    value="Volunteer"
-                                                                                    checked></span>
+                                                                            <span><input type="radio" name="Status" value="Volunteer" checked></span>
                                                                         </span>
                                                                     </label>
                                                                 </div>
 
                                                                 <div class="col-md-6">
-                                                                    <label
-                                                                        class="step-box-content bg-white text-center relative-position">
+                                                                    <label class="step-box-content bg-white text-center relative-position">
                                                                         <span class="step-box-icon">
-                                                                            <img src="multisteps/img/d3.png" alt=""
-                                                                                class="image">
+                                                                            <img src="multisteps/img/d3.png" alt="" class="image">
                                                                         </span>
                                                                         <span class="step-box-text">
                                                                             Member
                                                                         </span>
                                                                         <span class="service-check-option">
-                                                                            <span><input type="radio"
-                                                                                    name="Status"
-                                                                                    value="Member"></span>
+                                                                            <span><input type="radio" name="Status" value="Member"></span>
                                                                         </span>
                                                                     </label>
                                                                 </div>
@@ -109,11 +109,8 @@
                                             <!-- /.inner -->
                                             <div class="actions">
                                                 <ul>
-                                                    <li class="disable" aria-disabled="true"><span class="js-btn-next"
-                                                            title="NEXT">Backward <i
-                                                                class="fa fa-arrow-right"></i></span></li>
-                                                    <li><span class="js-btn-next" title="NEXT">NEXT <i
-                                                                class="fa fa-arrow-right"></i></span></li>
+                                                    <li class="disable" aria-disabled="true"><span class="js-btn-next" title="NEXT">Backward <i class="fa fa-arrow-right"></i></span></li>
+                                                    <li><span class="js-btn-next" title="NEXT">NEXT <i class="fa fa-arrow-right"></i></span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -136,42 +133,35 @@
 
                                                         <h2>Personal information</h2>
                                                         <div class="form-inner-area">
-                                                            <input type="text" name="FullName" class="form-control "
-                                                                minlength="2" placeholder="Full name *" required>
-                                                            
-                                                                <input type="text" name="CIN" class="form-control "
-                                                                minlength="2" placeholder="CIN *">
+                                                            <input type="text" name="FullName" class="form-control " minlength="2" placeholder="Full name *" required>
+
+                                                            <input type="text" name="CIN" class="form-control " minlength="2" placeholder="CIN *">
 
                                                             <div class="step-content-field">
                                                                 <div class="date-picker date datepicker">
-                                                                    <input type="text" name="Date" class="form-control"
-                                                                        placeholder="Enter you birth date">
+                                                                    <input type="text" name="Date" class="form-control" placeholder="Enter you birth date">
                                                                     <div class="input-group-append"><span>ADD
                                                                             TIME</span></div>
                                                                 </div>
                                                             </div>
-                                                            <input type="text" name="BirthPlace" class="form-control "
-                                                                minlength="2" placeholder="BirthPlace">
-                                                            <input type="Email" name="Email" class="form-control"
-                                                                placeholder="Email Address *">
+                                                            <input type="text" name="BirthPlace" class="form-control " minlength="2" placeholder="BirthPlace">
+                                                            <input type="Email" name="Email" class="form-control" placeholder="Email Address *">
                                                             <input type="text" name="Phone" placeholder="Phone">
                                                         </div>
 
                                                         <div class="gender-selection">
                                                             <h3>Gender:</h3>
-                                                            <input type="radio"  name="gender" value="Male">
+                                                            <input type="radio" name="gender" value="Male">
                                                             <b>Male</b>
-                                                     
+
                                                             <input type="radio" name="gender" value="Female">
-                                                            <b>Female</b>  
+                                                            <b>Female</b>
                                                         </div>
                                                         <div class="upload-documents">
                                                             <h3>Upload a photo of you</h3>
                                                             <div class="upload-araa bg-white">
-                                                                <input type="hidden" value="" name="fileContent"
-                                                                    id="fileContent">
-                                                                <input type="hidden" value="" name="filename"
-                                                                    id="filename">
+                                                                <input type="hidden" value="" name="fileContent" id="fileContent">
+                                                                <input type="hidden" value="" name="filename" id="filename">
                                                                 <div class="upload-icon float-left">
                                                                     <i class="fas fa-cloud-upload-alt"></i>
                                                                 </div>
@@ -180,8 +170,7 @@
                                                                 </div>
                                                                 <div class="upload-option text-center">
                                                                     <label for="attach">Upload The picture</label>
-                                                                    <input id="attach" name="uploaded_image" style="visibility:hidden;"
-                                                                        type="file" accept="image/*">
+                                                                    <input id="attach" name="uploaded_image" style="visibility:hidden;" type="file" accept="image/*">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -192,10 +181,8 @@
                                             <!-- /.inner -->
                                             <div class="actions">
                                                 <ul>
-                                                    <li><span class="js-btn-prev" title="BACK"><i
-                                                                class="fa fa-arrow-left"></i> BACK </span></li>
-                                                    <li><span class="js-btn-next" title="NEXT">NEXT <i
-                                                                class="fa fa-arrow-right"></i></span></li>
+                                                    <li><span class="js-btn-prev" title="BACK"><i class="fa fa-arrow-left"></i> BACK </span></li>
+                                                    <li><span class="js-btn-next" title="NEXT">NEXT <i class="fa fa-arrow-right"></i></span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -245,20 +232,17 @@
 
                                                         <div class="comment-box">
                                                             <p><i class="fas fa-comments"></i> Centers of interest</p>
-                                                            <textarea name="centres_of_interest"
-                                                                placeholder="Write here"></textarea>
+                                                            <textarea name="centres_of_interest" placeholder="Write here"></textarea>
                                                         </div>
                                                         <div class="comment-box">
                                                             <p><i class="fas fa-comments"></i> Activities to Engage in
                                                                 at the Association</p>
-                                                            <textarea name="activities_to_engage_in"
-                                                                placeholder="Write here"></textarea>
+                                                            <textarea name="activities_to_engage_in" placeholder="Write here"></textarea>
                                                         </div>
                                                         <div class="comment-box">
                                                             <p><i class="fas fa-comments"></i> Objectives to Achieve
                                                                 within the Association</p>
-                                                            <textarea name="objectives_to_engage"
-                                                                placeholder="Write here"></textarea>
+                                                            <textarea name="objectives_to_engage" placeholder="Write here"></textarea>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -266,10 +250,8 @@
                                             <!-- ./inner -->
                                             <div class="actions">
                                                 <ul>
-                                                    <li><span class="js-btn-prev" title="BACK"><i
-                                                                class="fa fa-arrow-left"></i> BACK </span></li>
-                                                    <li><button type="submit" name="joinus-btn-submit" title="NEXT">SUBMIT <i
-                                                                class="fa fa-arrow-right"></i></button></li>
+                                                    <li><span class="js-btn-prev" title="BACK"><i class="fa fa-arrow-left"></i> BACK </span></li>
+                                                    <li><button type="submit" name="joinus-btn-submit" title="NEXT">SUBMIT <i class="fa fa-arrow-right"></i></button></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -285,4 +267,4 @@
     </div>
     <!-- volunteer-area-end -->
 
-    <?php include 'include/footer.php';?>
+    <?php include 'include/footer.php'; ?>

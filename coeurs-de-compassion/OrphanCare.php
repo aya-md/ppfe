@@ -1,8 +1,9 @@
 <?php
- include 'include/header.php';
- include_once 'C:\xampp\htdocs\nnn\ppfe\coeurs-de-compassion\Models\UI\UI\OrphaneModel.php';
+include 'include/header.php';
+include_once 'C:\xampp\htdocs\nnn\ppfe\coeurs-de-compassion\Models\UI\OrphaneModel.php';
 
- ?>
+?>
+
 <body class="bd">
     <!-- start page-wrapper -->
     <div class="page-wrapper">
@@ -21,19 +22,22 @@
                 </div>
             </div>
         </div>
+        <?php if(isset($msg) and $msg !== ''){
+                        echo $msg;
+                        } ?>
         <!-- .tp-breadcumb-area end -->
         <!-- volunteer-area-start -->
         <div class="volunteer-area">
             <div class="volunteer-wrap section-padding">
                 <div class="container">
-                   
+
                     <div class="container-fluid">
                         <div class="row justify-content-center">
                             <div class="col-11 col-sm-10 col-md-10 col-lg-6 col-xl-9 text-center p-0 mt-3 mb-2">
                                 <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
                                     <h2 id="heading">Fill our Benefit form</h2>
-                                   
-                                    <form id="msform" action="controllers/UI/orphaneCareController.php" method="POST">
+
+                                    <form id="msform" method="POST">
                                         <!-- progressbar -->
                                         <ul id="progressbar" style="display: flex;">
                                             <li class="active" id="account"><strong>THE ORPHAN</strong></li>
@@ -60,22 +64,21 @@
                                                 <input type="text" name="nameorph" placeholder="Full Name" />
                                                 <label class="fieldlabels">Birth date: *</label>
                                                 <div class="date-picker date datepicker">
-                                                    <input type="text" name="dateorph" class="form-control"
-                                                        placeholder="Enter you birth date">
+                                                    <input type="text" name="dateorph" class="form-control" placeholder="Enter you birth date">
                                                     <div class="input-group-append"><span></span></div>
                                                 </div>
-                                                <label class="fieldlabels">Gender:</label>                                                                                                                    
-                                                    <div class="HealthStatus">
-                                                            <input type="radio"  name="genderorph" value="Male">
-                                                            <b>Male</b>
-                                                     
-                                                            <input type="radio" name="genderorph" value="Female">
-                                                            <b>Female</b>     
-                                                    </div>
+                                                <label class="fieldlabels">Gender:</label>
+                                                <div class="HealthStatus">
+                                                    <input type="radio" name="genderorph" value="Male">
+                                                    <b>Male</b>
+
+                                                    <input type="radio" name="genderorph" value="Female">
+                                                    <b>Female</b>
+                                                </div>
                                                 <label class="fieldlabels">CIN: *</label>
                                                 <input type="text" name="cinorph" placeholder="CIN" />
                                                 <label class="fieldlabels">Eduaction level: *</label>
-                                              
+
                                                 <div class="education-select">
                                                     <select class="form-select form-select-md mb-3" name="edulevel">
                                                         <option value="Primary school">Primary school</option>
@@ -83,17 +86,17 @@
                                                         <option value="High school">High school</option>
                                                     </select>
                                                 </div>
-                                                
-                                                <label class="fieldlabels">Health Status:</label>                                                                                                                    
-                                                    <div class="HealthStatus">
-                                                            <input type="radio"  name="hsorph" value="Good">
-                                                            <b>Good</b>
-                                                     
-                                                            <input type="radio" name="hsorph" value="Poor">
-                                                            <b>Poor</b>     
-                                                    </div>
-                                                    <label class="fieldlabels">Health problems:</label>
-                                                    <input type="text" name="hporph" placeholder="enter the orphan's health problems" />
+
+                                                <label class="fieldlabels">Health Status:</label>
+                                                <div class="HealthStatus">
+                                                    <input type="radio" name="hsorph" value="Good">
+                                                    <b>Good</b>
+
+                                                    <input type="radio" name="hsorph" value="Poor">
+                                                    <b>Poor</b>
+                                                </div>
+                                                <label class="fieldlabels">Health problems:</label>
+                                                <input type="text" name="hporph" placeholder="enter the orphan's health problems" />
                                             </div> <input type="button" name="next" class="next action-button" value="Next" />
                                         </fieldset>
                                         <fieldset>
@@ -108,7 +111,7 @@
                                                 </div>
                                                 <label class="fieldlabels">Full Name: *</label>
                                                 <input type="text" name="namek" placeholder="Full Name" />
-                                            
+
                                                 <label class="fieldlabels">CIN: *</label>
                                                 <input type="text" name="CINkaf" placeholder="CIN" />
                                                 <label class="fieldlabels">Phone number: *</label>
@@ -116,7 +119,7 @@
                                                 <label class="fieldlabels">Address: *</label>
                                                 <textarea name="adressk" id="adressk" cols="30" rows="10"></textarea>
 
-                                                
+
                                             </div> <input type="button" name="next" class="next action-button" value="Next" />
                                             <input type="button" name="previous" class="previous action-button" value="Previous" />
                                         </fieldset>
@@ -134,8 +137,7 @@
                                                 <input type="text" name="namef" placeholder="Full Name" />
                                                 <label class="fieldlabels">Death date: *</label>
                                                 <div class="date-picker date datepicker">
-                                                    <input type="text" name="datef" class="form-control"
-                                                        placeholder="Enter the father death date">
+                                                    <input type="text" name="datef" class="form-control" placeholder="Enter the father death date">
                                                     <div class="input-group-append"><span></span></div>
                                                 </div>
                                                 <label class="fieldlabels">Death cause: *</label>
@@ -144,19 +146,19 @@
                                                 <input type="text" name="jobf" placeholder="Job" />
 
                                                 <label class="fieldlabels">Employer: *</label>
-                                                <input type="text" name="emplf" placeholder="Employer" />                                             
+                                                <input type="text" name="emplf" placeholder="Employer" />
 
-                                                <label class="fieldlabels">Social Insurance:</label>                                                                                                                    
-                                                    <div class="HealthStatus">
-                                                            <input type="radio"  name="scinf" value="CNSS">
-                                                            <b>CNSS</b>
-                                                     
-                                                            <input type="radio" name="scinf" value="Retirement">
-                                                            <b>Retirement</b> 
-                                                            
-                                                            <input type="radio" name="scinf" value="None">
-                                                            <b>None</b> 
-                                                    </div>
+                                                <label class="fieldlabels">Social Insurance:</label>
+                                                <div class="HealthStatus">
+                                                    <input type="radio" name="scinf" value="CNSS">
+                                                    <b>CNSS</b>
+
+                                                    <input type="radio" name="scinf" value="Retirement">
+                                                    <b>Retirement</b>
+
+                                                    <input type="radio" name="scinf" value="None">
+                                                    <b>None</b>
+                                                </div>
                                             </div> <input type="button" name="next" class="next action-button" value="Next" />
                                             <input type="button" name="previous" class="previous action-button" value="Previous" />
                                         </fieldset>
@@ -181,40 +183,40 @@
                                                 </div>
                                                 <label class="fieldlabels">The estimated value of the house: *</label>
                                                 <input type="text" name="accomvalue" placeholder="value" />
-                                                <label class="fieldlabels">household appliances quality :</label>                                                                                                                    
-                                                    <div class="HealthStatus">
-                                                            <input type="radio"  name="appliances" value="Excellent">
-                                                            <b>Excellent</b>
-                                                     
-                                                            <input type="radio" name="appliances" value="Good">
-                                                            <b>Good</b>  
-                                                            
-                                                            <input type="radio" name="appliances" value="Poor">
-                                                            <b>Poor</b> 
-                                                            <input type="radio" name="appliances" value="none">
-                                                            <b>We don't have any machines</b>   
-                                                    </div>
-                                                    <label class="fieldlabels">Does your house have access to electricity? :</label>                                                                                                                    
-                                                    <div class="electricity">
-                                                            <input type="radio"  name="electricity" value="Yes">
-                                                            <b>Yes</b>
-                                                     
-                                                            <input type="radio" name="electricity" value="No">
-                                                            <b>No</b>  
+                                                <label class="fieldlabels">household appliances quality :</label>
+                                                <div class="HealthStatus">
+                                                    <input type="radio" name="appliances" value="Excellent">
+                                                    <b>Excellent</b>
 
-                                                    </div>
-                                                    <label class="fieldlabels">What is the average monthly bill for electricity at your place? *</label>
+                                                    <input type="radio" name="appliances" value="Good">
+                                                    <b>Good</b>
+
+                                                    <input type="radio" name="appliances" value="Poor">
+                                                    <b>Poor</b>
+                                                    <input type="radio" name="appliances" value="none">
+                                                    <b>We don't have any machines</b>
+                                                </div>
+                                                <label class="fieldlabels">Does your house have access to electricity? :</label>
+                                                <div class="electricity">
+                                                    <input type="radio" name="electricity" value="Yes">
+                                                    <b>Yes</b>
+
+                                                    <input type="radio" name="electricity" value="No">
+                                                    <b>No</b>
+
+                                                </div>
+                                                <label class="fieldlabels">What is the average monthly bill for electricity at your place? *</label>
                                                 <input type="text" name="elecbill" placeholder="value" />
-                                                    <label class="fieldlabels">Is there water service at your house?</label>                                                                                                                    
-                                                    <div class="water">
-                                                            <input type="radio"  name="water" value="Yes">
-                                                            <b>Yes</b>
-                                                     
-                                                            <input type="radio" name="water" value="No">
-                                                            <b>No</b>  
+                                                <label class="fieldlabels">Is there water service at your house?</label>
+                                                <div class="water">
+                                                    <input type="radio" name="water" value="Yes">
+                                                    <b>Yes</b>
 
-                                                    </div>
-                                                    <label class="fieldlabels">What is the average monthly bill for water at your place? *</label>
+                                                    <input type="radio" name="water" value="No">
+                                                    <b>No</b>
+
+                                                </div>
+                                                <label class="fieldlabels">What is the average monthly bill for water at your place? *</label>
                                                 <input type="text" name="waterbill" placeholder="value" />
                                             </div> <input type="button" name="next" class="next action-button" value="Next" />
                                             <input type="button" name="previous" class="previous action-button" value="Previous" />
@@ -231,11 +233,11 @@
                                                 </div>
                                                 <label class="fieldlabels">What types of aid are available? *</label>
                                                 <input type="text" name="typea" placeholder="Aid type" />
-                                              
+
                                                 <label class="fieldlabels">What is the value or amount of this aid? *</label>
                                                 <input type="text" name="valuea" placeholder="Aid value" />
-                                                
-                                              
+
+
                                                 <div class="education-select">
                                                     <label class="fieldlabels">How often do you receive assistance? :</label>
                                                     <select class="form-select form-select-md mb-3" name="frequencyaid">
@@ -244,9 +246,9 @@
                                                         <option value="Yearly">Yearly</option>
                                                     </select>
                                                 </div>
-                                            
+
                                             </div> <input type="submit" name="orphan-btn-submit" id="orphan-btn-submit" class="next action-button" value="Submit" />
-                                            
+
                                         </fieldset>
                                         <fieldset>
                                             <div class="form-card">
@@ -268,15 +270,15 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                           
+
                                         </fieldset>
                                     </form>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <?php include 'include/footer.php';?>
+        <?php include 'include/footer.php'; ?>
